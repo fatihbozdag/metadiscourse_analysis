@@ -42,11 +42,9 @@ Open the `metadiscourse_analysis_notebook.ipynb` in Jupyter and follow the instr
 - spaCy (with en_core_web_trf or en_core_web_sm model)
 - torch (optional, for GPU acceleration)
 
-## Citation
+## Author
 
-If you use this tool in your research, please cite:
-
-Hyland, K. (2005). Metadiscourse: Exploring interaction in writing. Continuum.
+Fatih Ünal Bozdağ - fatihbozdag@osmaniye.edu.tr
 
 ## License
 
