@@ -1,5 +1,30 @@
-# Metadiscourse Analysis Script
-# This script can be run directly or converted to a notebook using nbconvert
+#!/usr/bin/env python
+# coding: utf-8
+
+# 
+# # Metadiscourse Analysis Notebook
+# 
+# This notebook provides a comprehensive framework for analyzing metadiscourse markers in academic texts based on Hyland's (2005) framework. It includes:
+# 
+# - Detection of interactive and interactional metadiscourse markers
+# - Statistical analysis of language group differences
+# - Visualization of metadiscourse patterns
+# - Shannon entropy calculation for metadiscourse diversity
+# - Generation of publication-ready LaTeX tables
+# 
+# ## How to Use This Notebook
+# 
+# 1. Run the cells in order
+# 2. Provide your input data either as a CSV file or a directory of text files
+# 3. Examine the visualizations and statistical results
+# 
+# The analysis will be saved in the `analysis_results` directory.
+#     
+
+# ## Import Libraries
+
+# In[1]:
+
 
 # Import necessary libraries
 import pandas as pd
@@ -20,11 +45,25 @@ import torch
 from typing import Dict, List, Set, Tuple
 import math
 from collections import Counter
+pattern = r'ICLE\-\w+\-\w+\-\d+\.\d+'
+pattern = r'[^\w\s]'
+
+
+# ## Configure Settings
+
+# In[2]:
+
 
 # Configure patterns and pandas display
 pattern = r'ICLE\-\w+\-\w+\-\d+\.\d+'
 pattern = r'[^\w\s]'
 pd.set_option('display.max_colwidth', None)
+
+
+# ## GPU Setup
+
+# In[3]:
+
 
 # Attempt to use MPS (Metal Performance Shaders) if available
 try:
@@ -34,10 +73,16 @@ try:
     print("Using GPU acceleration with the transformer model.")
 except:
     try:
-        nlp = spacy.load("en_core_web_sm")
+        nlp = spacy.load("en_core_web_trf")
         print("GPU acceleration not available, using CPU with the small model.")
     except:
-        print("No spaCy models found. Please install with: python -m spacy download en_core_web_sm")
+        print("No spaCy models found. Please install with: python -m spacy download en_core_web_trf")
+
+
+# ## Define Metadiscourse Markers
+
+# In[4]:
+
 
 # Define comprehensive metadiscourse marker lists based on Hyland (2005)
 INTERACTIVE_MARKERS = {
@@ -135,6 +180,12 @@ INTERACTIONAL_MARKERS = {
     ]
 }
 
+
+# ## Context Rules for Filtering
+
+# In[5]:
+
+
 # Context rules to filter false positives
 CONTEXT_PATTERNS = {
     "hedges": [
@@ -176,6 +227,12 @@ CONTEXT_PATTERNS = {
     ]
 }
 
+
+# ## Metadiscourse Detector Component
+
+# In[6]:
+
+
 # Register the metadiscourse detector component
 @Language.component("metadiscourse_detector")
 def metadiscourse_detector(doc):
@@ -201,15 +258,17 @@ def metadiscourse_detector(doc):
     # Create matchers for each category
     matcher = PhraseMatcher(doc.vocab, attr="LOWER")
     
-    # Add interactive markers
+    # Add interactive markers - FIXED
     for category, markers in INTERACTIVE_MARKERS.items():
-        patterns = [doc.vocab.strings.add(marker) for marker in markers]
-        matcher.add(category, None, *patterns)
+        # Create proper Doc objects for each marker
+        patterns = [nlp.make_doc(marker) for marker in markers]
+        matcher.add(category, patterns)  # Updated API call
     
-    # Add interactional markers
+    # Add interactional markers - FIXED
     for category, markers in INTERACTIONAL_MARKERS.items():
-        patterns = [doc.vocab.strings.add(marker) for marker in markers]
-        matcher.add(category, None, *patterns)
+        # Create proper Doc objects for each marker
+        patterns = [nlp.make_doc(marker) for marker in markers]
+        matcher.add(category, patterns)  # Updated API call
     
     # Find matches
     matches = matcher(doc)
@@ -230,12 +289,36 @@ def metadiscourse_detector(doc):
     context_matches = context_matcher(doc)
     for match_id, start, end in context_matches:
         match_name = doc.vocab.strings[match_id]
-        category = match_name.split('_')[0]
-        span = doc[start:end]
         
-        # Check if this is a new match or already captured
-        if not any(start <= s < end or start < e <= end for _, (s, e) in results[category]):
-            results[category].append((span.text, (start, end)))
+        # Extract the base category name (e.g., 'transition_0' -> 'transition')
+        category_base = match_name.split('_')[0]
+        
+        # Map partial category names to full names
+        category_map = {
+            'transition': 'transition_markers',
+            'frame': 'frame_markers',
+            'endophoric': 'endophoric_markers',
+            'code': 'code_glosses',
+            'attitude': 'attitude_markers',
+            'engagement': 'engagement_markers'
+        }
+        
+        # Use the mapped category name if available, otherwise keep as is
+        category = category_map.get(category_base, category_base)
+        
+        # Process only if the category is valid
+        if category in results:
+            span = doc[start:end]
+            
+            # Check if this is a new match or already captured
+            already_captured = False
+            for _, (s, e) in results[category]:
+                if start <= s < end or start < e <= end:
+                    already_captured = True
+                    break
+            
+            if not already_captured:
+                results[category].append((span.text, (start, end)))
     
     # Additional rule-based detection for evidentials
     for token in doc:
@@ -250,6 +333,12 @@ def metadiscourse_detector(doc):
     doc._.metadiscourse_markers = results
     return doc
 
+
+# ## Text Analysis Function
+
+# In[7]:
+
+
 def analyze_text(text, nlp=None):
     """Analyze a text for metadiscourse markers and calculate statistics."""
     if nlp is None:
@@ -257,7 +346,7 @@ def analyze_text(text, nlp=None):
         try:
             nlp = spacy.load("en_core_web_trf")
         except:
-            nlp = spacy.load("en_core_web_sm")
+            nlp = spacy.load("en_core_web_trf")
             print("Warning: Using smaller spaCy model. For better results, install en_core_web_trf.")
         
         # Add the metadiscourse detector component if not already added
@@ -303,6 +392,12 @@ def analyze_text(text, nlp=None):
     
     return results
 
+
+# ## Corpus Loading Function
+
+# In[8]:
+
+
 def load_corpus(corpus_path, language_map=None):
     """Load corpus texts and analyze them for metadiscourse markers."""
     results = []
@@ -342,6 +437,12 @@ def load_corpus(corpus_path, language_map=None):
     
     return pd.DataFrame(results)
 
+
+# ## Language Map Loading Function
+
+# In[9]:
+
+
 def load_language_map(file_path):
     """Load mapping between filenames and native languages."""
     language_map = {}
@@ -354,6 +455,12 @@ def load_language_map(file_path):
                 language_map[filename] = language
     
     return language_map
+
+
+# ## LaTeX Table Generation
+
+# In[10]:
+
 
 # Function to generate LaTeX tables for academic publication
 def generate_latex_tables(df, output_dir='results'):
@@ -514,6 +621,12 @@ def generate_latex_tables(df, output_dir='results'):
     with open(os.path.join(output_dir, 'metadiscourse_analysis_tables.tex'), 'w') as f:
         f.write(combined_latex)
 
+
+# ## Statistical Analysis
+
+# In[11]:
+
+
 def perform_language_group_statistics(df, output_dir='results'):
     """Perform statistical tests to compare language groups."""
     os.makedirs(output_dir, exist_ok=True)
@@ -592,6 +705,12 @@ def perform_language_group_statistics(df, output_dir='results'):
         
         # Save as CSV for easier viewing
         results_df.to_csv(os.path.join(output_dir, 'anova_results.csv'), index=False)
+
+
+# ## Visualization Functions
+
+# In[12]:
+
 
 def generate_visualizations(df, output_dir='results'):
     """Generate visualizations for metadiscourse analysis."""
@@ -809,6 +928,12 @@ def generate_visualizations(df, output_dir='results'):
     
     print(f"All visualizations saved to {output_dir}")
 
+
+# ## Distribution Analysis
+
+# In[13]:
+
+
 def analyze_metadiscourse_distribution(df, output_dir='results'):
     """Analyze the distribution of metadiscourse markers and generate visualizations."""
     os.makedirs(output_dir, exist_ok=True)
@@ -902,6 +1027,12 @@ def analyze_metadiscourse_distribution(df, output_dir='results'):
     }
     
     return summary
+
+
+# ## Shannon Entropy Calculation
+
+# In[14]:
+
 
 def calculate_shannon_entropy(df, output_dir='results'):
     """Calculate Shannon entropy for metadiscourse markers to measure diversity."""
@@ -1035,143 +1166,210 @@ def calculate_shannon_entropy(df, output_dir='results'):
     
     return summary
 
-def main():
-    """Main function to run the metadiscourse analysis."""
-    # Set up command-line argument parsing
-    parser = argparse.ArgumentParser(description='Analyze metadiscourse markers in texts.')
-    parser.add_argument('--input', '-i', type=str, help='Input CSV file with text data')
-    parser.add_argument('--corpus', '-c', type=str, help='Directory containing corpus text files')
-    parser.add_argument('--language_map', '-l', type=str, help='File mapping filenames to native languages')
-    parser.add_argument('--output_dir', '-o', type=str, default='analysis_results', help='Directory to save results')
-    args = parser.parse_args()
-    
-    # Create output directory
-    os.makedirs(args.output_dir, exist_ok=True)
-    
-    # Initialize results dataframe
-    results_df = None
-    
-    # Process input based on provided arguments
-    if args.input:
-        print(f"Loading data from CSV file: {args.input}")
-        try:
-            # Load data from CSV
-            meta = pd.read_csv(args.input)
-            text = pd.read_csv(args.input)
-            
-            # Preprocess text
-            text['text_field'] = text['text_field'].apply(lambda x: re.sub(pattern, '', str(x)).replace('\n', ''))
-            text['text_field'] = text['text_field'].str.lower()
-            
-            # Create list of (text, metadata) tuples
-            meta_x = meta.to_dict('records')
-            text_only = text['text_field'].values.tolist()
-            corpus_data = list(zip(text_only, meta_x))
-            
-            # Analyze each text
-            results = []
-            for text, metadata in corpus_data:
-                print(f"Analyzing text: {metadata.get('Filename', 'Unknown')}")
-                analysis = analyze_text(text)
-                
-                # Add metadata
-                for key, value in metadata.items():
-                    analysis[key] = value
-                
-                results.append(analysis)
-            
-            # Create DataFrame
-            results_df = pd.DataFrame(results)
-            
-        except Exception as e:
-            print(f"Error processing CSV file: {e}")
-            return
-    
-    elif args.corpus:
-        print(f"Loading corpus from directory: {args.corpus}")
-        try:
-            # Load language map if provided
-            language_map = None
-            if args.language_map:
-                language_map = load_language_map(args.language_map)
-                print(f"Loaded language map with {len(language_map)} entries")
-            
-            # Load and analyze corpus
-            results_df = load_corpus(args.corpus, language_map)
-            
-        except Exception as e:
-            print(f"Error processing corpus: {e}")
-            return
-    
-    else:
-        print("No input specified. Please provide either --input or --corpus.")
-        parser.print_help()
-        return
-    
-    # Save raw results
-    if results_df is not None:
-        results_csv = os.path.join(args.output_dir, 'metadiscourse_analysis_results.csv')
-        results_df.to_csv(results_csv, index=False)
-        print(f"Raw analysis results saved to {results_csv}")
-        
-        # Generate LaTeX tables
-        print("\nGenerating LaTeX tables...")
-        generate_latex_tables(results_df, args.output_dir)
-        
-        # Perform statistical analysis
-        print("\nPerforming statistical analysis...")
-        perform_language_group_statistics(results_df, args.output_dir)
-        
-        # Generate visualizations
-        print("\nGenerating visualizations...")
-        generate_visualizations(results_df, args.output_dir)
-        
-        # Analyze metadiscourse distribution
-        print("\nAnalyzing metadiscourse distribution...")
-        distribution_summary = analyze_metadiscourse_distribution(results_df, args.output_dir)
-        
-        # Calculate Shannon entropy
-        print("\nCalculating Shannon entropy...")
-        entropy_summary = calculate_shannon_entropy(results_df, args.output_dir)
-        
-        # Generate summary report
-        print("\nGenerating summary report...")
-        report_path = os.path.join(args.output_dir, 'analysis_summary.txt')
-        with open(report_path, 'w') as f:
-            f.write("=== METADISCOURSE ANALYSIS SUMMARY ===\n\n")
-            
-            # Basic statistics
-            f.write(f"Total texts analyzed: {len(results_df)}\n")
-            if 'Native_Language' in results_df.columns:
-                f.write(f"Language groups: {', '.join(results_df['Native_Language'].unique())}\n")
-            
-            # Distribution summary
-            f.write("\n--- Metadiscourse Distribution ---\n")
-            f.write(f"Interactive markers: {distribution_summary['interactive_percentage']:.2f}%\n")
-            f.write(f"Interactional markers: {distribution_summary['interactional_percentage']:.2f}%\n")
-            f.write(f"Most frequent category: {distribution_summary['most_frequent_category']} ({distribution_summary['most_frequent_percentage']:.2f}%)\n")
-            f.write(f"Least frequent category: {distribution_summary['least_frequent_category']} ({distribution_summary['least_frequent_percentage']:.2f}%)\n")
-            
-            # Entropy summary
-            f.write("\n--- Metadiscourse Diversity (Shannon Entropy) ---\n")
-            f.write(f"Mean normalized entropy: {entropy_summary['mean_normalized_entropy']:.4f} (0-1 scale)\n")
-            f.write(f"Max possible entropy: {entropy_summary['max_entropy']:.4f} bits\n")
-            
-            # Language-specific entropy if available
-            if 'language_stats' in entropy_summary:
-                f.write("\nEntropy by language group:\n")
-                for lang, stats in entropy_summary['language_stats'].items():
-                    f.write(f"  {lang}: {stats['mean']:.4f} ± {stats['std']:.4f}\n")
-                
-                if 'entropy_anova_p' in entropy_summary:
-                    f.write(f"\nANOVA test for entropy differences: F={entropy_summary['entropy_anova_f']:.2f}, p={entropy_summary['entropy_anova_p']:.4f}")
-                    if entropy_summary.get('entropy_significant_diff', False):
-                        f.write(" (significant)\n")
-                    else:
-                        f.write(" (not significant)\n")
-        
-        print(f"Summary report saved to {report_path}")
-        print(f"\nAll analysis results saved to {args.output_dir}")
 
-if __name__ == "__main__":
-    main()
+# ## Main Function
+
+# ## Example Usage
+
+# 
+# ## Data Loading and Analysis
+# 
+# Run the following cell to load your data and perform the analysis. You can modify the parameters as needed.
+#     
+
+# In[18]:
+
+
+# Example: Load data from a CSV file
+# Replace with your own CSV file path
+csv_path = '/Users/fatihbozdag/Documents/Documents - Fatih’s Mac mini/Studies/metadata_with_text.csv'
+
+# Load and preprocess data
+meta = pd.read_csv(csv_path)
+text = pd.read_csv(csv_path)
+text['text_field'] = text['text_field'].apply(lambda x: re.sub(pattern, '', str(x)).replace('', ''))
+text['text_field'] = text['text_field'].str.lower()
+# Create list of (text, metadata) tuples
+meta_x = meta.to_dict('records')
+text_only = text['text_field'].values.tolist()
+corpus_data = list(zip(text_only, meta_x))
+# Analyze each text
+results = []
+
+# Import tqdm for the progress bar
+from tqdm import tqdm
+# Use tqdm to create a progress bar for the loop
+for text, metadata in tqdm(corpus_data, desc="Processing documents for metadiscourse markers"):
+    analysis = analyze_text(text)
+    
+    # Add metadata
+    for key, value in metadata.items():
+        analysis[key] = value
+    
+    results.append(analysis)
+
+# Create DataFrame
+results_df = pd.DataFrame(results)
+# Save raw results
+output_dir = 'analysis_results'
+os.makedirs(output_dir, exist_ok=True)
+results_csv = os.path.join(output_dir, 'metadiscourse_analysis_results.csv')
+results_df.to_csv(results_csv, index=False)
+print(f"Raw analysis results saved to {results_csv}")
+# Generate all analyses
+generate_latex_tables(results_df, output_dir)
+perform_language_group_statistics(results_df, output_dir)
+generate_visualizations(results_df, output_dir)
+distribution_summary = analyze_metadiscourse_distribution(results_df, output_dir)
+entropy_summary = calculate_shannon_entropy(results_df, output_dir)
+print(f"All analysis results saved to {output_dir}")
+
+
+# 
+# ## Displaying Results
+# 
+# Run the following cells to display some of the results directly in the notebook.
+#     
+
+# In[ ]:
+
+
+# Display summary statistics
+print("=== METADISCOURSE ANALYSIS SUMMARY ===\n")
+
+# Basic statistics
+print(f"Total texts analyzed: {len(results_df)}")
+if 'Native_Language' in results_df.columns:
+    print(f"Language groups: {', '.join(results_df['Native_Language'].unique())}")
+
+# Distribution summary
+print("\n--- Metadiscourse Distribution ---")
+print(f"Interactive markers: {distribution_summary['interactive_percentage']:.2f}%")
+print(f"Interactional markers: {distribution_summary['interactional_percentage']:.2f}%")
+print(f"Most frequent category: {distribution_summary['most_frequent_category']} ({distribution_summary['most_frequent_percentage']:.2f}%)")
+print(f"Least frequent category: {distribution_summary['least_frequent_category']} ({distribution_summary['least_frequent_percentage']:.2f}%)")
+
+# Entropy summary
+print("\n--- Metadiscourse Diversity (Shannon Entropy) ---")
+print(f"Mean normalized entropy: {entropy_summary['mean_normalized_entropy']:.4f} (0-1 scale)")
+print(f"Max possible entropy: {entropy_summary['max_entropy']:.4f} bits")
+
+# Language-specific entropy if available
+if 'language_stats' in entropy_summary:
+    print("\nEntropy by language group:")
+    for lang, stats in entropy_summary['language_stats'].items():
+        print(f"  {lang}: {stats['mean']:.4f} ± {stats['std']:.4f}")
+    
+    if 'entropy_anova_p' in entropy_summary:
+        print(f"\nANOVA test for entropy differences: F={entropy_summary['entropy_anova_f']:.2f}, p={entropy_summary['entropy_anova_p']:.4f}")
+        if entropy_summary.get('entropy_significant_diff', False):
+            print(" (significant)")
+        else:
+            print(" (not significant)")
+
+
+# 
+# ## Displaying Visualizations
+# 
+# Run the following cells to display some of the visualizations directly in the notebook.
+#     
+
+# In[ ]:
+
+
+# Display interactive vs. interactional scatter plot
+plt.figure(figsize=(10, 8))
+
+if 'Native_Language' in results_df.columns:
+    scatter = sns.scatterplot(
+        data=results_df,
+        x='interactive_density',
+        y='interactional_density',
+        hue='Native_Language',
+        s=100,
+        alpha=0.7
+    )
+else:
+    scatter = sns.scatterplot(
+        data=results_df,
+        x='interactive_density',
+        y='interactional_density',
+        s=100,
+        alpha=0.7
+    )
+
+plt.title('Interactive vs. Interactional Metadiscourse Markers')
+plt.xlabel('Interactive Markers (per 1000 words)')
+plt.ylabel('Interactional Markers (per 1000 words)')
+plt.grid(True, linestyle='--', alpha=0.7)
+
+# Add regression line
+sns.regplot(
+    x='interactive_density',
+    y='interactional_density',
+    data=results_df,
+    scatter=False,
+    ci=None,
+    line_kws={"color": "red", "lw": 2, "linestyle": "--"}
+)
+
+plt.tight_layout()
+plt.show()
+    
+
+
+# In[ ]:
+
+
+# Display marker distribution pie chart
+# Calculate total markers for each category
+interactive_categories = ["code_glosses", "endophoric_markers", "evidentials", "frame_markers", "transition_markers"]
+interactional_categories = ["attitude_markers", "self_mention", "engagement_markers", "hedges", "boosters"]
+
+# Get all marker categories that exist in the dataframe
+categories = [cat for cat in interactive_categories + interactional_categories if cat in results_df.columns]
+
+# Calculate total markers for each category
+total_markers = {category: results_df[category].sum() for category in categories}
+
+# Calculate percentages
+total_count = sum(total_markers.values())
+percentages = {category: (count / total_count) * 100 for category, count in total_markers.items()}
+
+# Create a DataFrame for easier plotting
+distribution_df = pd.DataFrame({
+    'Category': list(percentages.keys()),
+    'Count': list(total_markers.values()),
+    'Percentage': list(percentages.values())
+})
+
+# Add category type (interactive or interactional)
+distribution_df['Type'] = distribution_df['Category'].apply(
+    lambda x: 'Interactive' if x in interactive_categories else 'Interactional'
+)
+
+# Sort by percentage
+distribution_df = distribution_df.sort_values('Percentage', ascending=False)
+
+# Generate pie chart
+plt.figure(figsize=(12, 10))
+plt.pie(
+    distribution_df['Percentage'],
+    labels=distribution_df['Category'],
+    autopct='%1.1f%%',
+    startangle=90,
+    shadow=True,
+    explode=[0.05] * len(distribution_df),
+    colors=sns.color_palette('viridis', len(distribution_df))
+)
+plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
+plt.title('Distribution of Metadiscourse Marker Categories')
+plt.show()
+    
+
+
+# In[ ]:
+
+
+
+

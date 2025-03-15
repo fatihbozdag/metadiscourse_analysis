@@ -13,9 +13,7 @@ A comprehensive Python-based tool for analyzing metadiscourse markers in academi
 
 ## Usage
 
-The tool can be used either as a Python script or as a Jupyter notebook:
-
-### Python Script
+The main script for this tool is `metadiscourse_analysis.py`:
 
 ```bash
 python metadiscourse_analysis.py --input your_data.csv --output_dir results
@@ -29,7 +27,7 @@ python metadiscourse_analysis.py --corpus /path/to/corpus --language_map languag
 
 ### Jupyter Notebook
 
-Open the `metadiscourse_analysis_notebook.ipynb` in Jupyter and follow the instructions in the notebook.
+A Jupyter notebook version is also available as `metadiscourse_analysis_notebook.ipynb` for interactive analysis.
 
 ## Requirements
 
@@ -41,6 +39,7 @@ Open the `metadiscourse_analysis_notebook.ipynb` in Jupyter and follow the instr
 - statsmodels
 - spaCy (with en_core_web_trf or en_core_web_sm model)
 - torch (optional, for GPU acceleration)
+- jupyter and nbconvert (for notebook conversion)
 
 ## Author
 
