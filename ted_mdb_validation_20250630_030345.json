@@ -1,0 +1,1228 @@
+{
+  "summary": {
+    "talks_validated": 5,
+    "total_words": 4836,
+    "total_human_markers": 0,
+    "total_system_markers": 0,
+    "overall_human_density": 0.0,
+    "overall_system_density": 0.0,
+    "density_ratio": 0
+  },
+  "aggregated_metrics": {
+    "categories": {
+      "unknown_category": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactive_endophoric_markers": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactive_code_glosses": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactional_hedges": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactional_self_mentions": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactive_evidentials": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactional_boosters": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactional_attitude_markers": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactive_transitions": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactional_engagement_markers": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      },
+      "interactive_frame_markers": {
+        "human_count": 0,
+        "system_count": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "human_density": 0.0,
+        "system_density": 0.0
+      }
+    },
+    "macro_averaged": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "performance_assessment": {
+    "density_assessment": "POOR - Major calibration required",
+    "f1_assessment": "EXCELLENT - High accuracy",
+    "overall_grade": "D/F - NEEDS MAJOR IMPROVEMENT",
+    "recommendations": [
+      "UNDER-DETECTION: Increase sensitivity (ratio: 0.00)"
+    ]
+  },
+  "individual_results": [
+    {
+      "talk_id": "1927",
+      "language": "English",
+      "word_count": 997,
+      "human_markers": {},
+      "system_markers": {
+        "interactive_transitions": 0,
+        "interactional_hedges": 0,
+        "interactive_endophoric_markers": 0,
+        "interactive_code_glosses": 0,
+        "interactional_boosters": 0,
+        "interactional_engagement_markers": 0,
+        "interactional_self_mentions": 0
+      },
+      "validation_metrics": {
+        "overall": {
+          "human_count": 0,
+          "system_count": 0,
+          "human_density": 0.0,
+          "system_density": 0.0,
+          "density_ratio": 0,
+          "density_difference": 0.0
+        },
+        "categories": {
+          "interactive_endophoric_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_boosters": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_code_glosses": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_transitions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_hedges": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_engagement_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_self_mentions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          }
+        },
+        "macro_averaged": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "system_stats": {
+        "total_markers": 0,
+        "density_per_1k": 0.0,
+        "categories": {
+          "interactive_transitions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_hedges": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_endophoric_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_code_glosses": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_boosters": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_engagement_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_self_mentions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          }
+        },
+        "validation_metrics": {
+          "evidence_based_filtering": true,
+          "context_adjustment_applied": true,
+          "density_limits_enforced": true
+        }
+      },
+      "benchmark_compliance": {
+        "overall": {
+          "density": 0.0,
+          "within_range": false,
+          "distance_from_optimal": 55.0,
+          "assessment": "non_compliant"
+        },
+        "categories": {
+          "interactive_transitions": {
+            "density": 0.0,
+            "expected_range": "10-25",
+            "within_range": false,
+            "distance_from_target": 18.0
+          },
+          "interactional_hedges": {
+            "density": 0.0,
+            "expected_range": "8-20",
+            "within_range": false,
+            "distance_from_target": 13.0
+          },
+          "interactive_code_glosses": {
+            "density": 0.0,
+            "expected_range": "1-8",
+            "within_range": false,
+            "distance_from_target": 4.0
+          },
+          "interactional_boosters": {
+            "density": 0.0,
+            "expected_range": "3-12",
+            "within_range": false,
+            "distance_from_target": 7.0
+          },
+          "interactional_engagement_markers": {
+            "density": 0.0,
+            "expected_range": "2-10",
+            "within_range": false,
+            "distance_from_target": 6.0
+          },
+          "interactional_self_mentions": {
+            "density": 0.0,
+            "expected_range": "2-15",
+            "within_range": false,
+            "distance_from_target": 8.0
+          }
+        }
+      }
+    },
+    {
+      "talk_id": "1971",
+      "language": "English",
+      "word_count": 577,
+      "human_markers": {},
+      "system_markers": {
+        "interactional_self_mentions": 0,
+        "interactive_transitions": 0,
+        "unknown_category": 0,
+        "interactional_hedges": 0,
+        "interactional_engagement_markers": 0,
+        "interactive_code_glosses": 0,
+        "interactional_boosters": 0,
+        "interactive_endophoric_markers": 0
+      },
+      "validation_metrics": {
+        "overall": {
+          "human_count": 0,
+          "system_count": 0,
+          "human_density": 0.0,
+          "system_density": 0.0,
+          "density_ratio": 0,
+          "density_difference": 0.0
+        },
+        "categories": {
+          "unknown_category": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_code_glosses": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_endophoric_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_hedges": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_self_mentions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_boosters": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_transitions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_engagement_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          }
+        },
+        "macro_averaged": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "system_stats": {
+        "total_markers": 0,
+        "density_per_1k": 0.0,
+        "categories": {
+          "interactional_self_mentions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_transitions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "unknown_category": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_hedges": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_engagement_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_code_glosses": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_boosters": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_endophoric_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          }
+        },
+        "validation_metrics": {
+          "evidence_based_filtering": true,
+          "context_adjustment_applied": true,
+          "density_limits_enforced": true
+        }
+      },
+      "benchmark_compliance": {
+        "overall": {
+          "density": 0.0,
+          "within_range": false,
+          "distance_from_optimal": 55.0,
+          "assessment": "non_compliant"
+        },
+        "categories": {
+          "interactional_self_mentions": {
+            "density": 0.0,
+            "expected_range": "2-15",
+            "within_range": false,
+            "distance_from_target": 8.0
+          },
+          "interactive_transitions": {
+            "density": 0.0,
+            "expected_range": "10-25",
+            "within_range": false,
+            "distance_from_target": 18.0
+          },
+          "interactional_hedges": {
+            "density": 0.0,
+            "expected_range": "8-20",
+            "within_range": false,
+            "distance_from_target": 13.0
+          },
+          "interactional_engagement_markers": {
+            "density": 0.0,
+            "expected_range": "2-10",
+            "within_range": false,
+            "distance_from_target": 6.0
+          },
+          "interactive_code_glosses": {
+            "density": 0.0,
+            "expected_range": "1-8",
+            "within_range": false,
+            "distance_from_target": 4.0
+          },
+          "interactional_boosters": {
+            "density": 0.0,
+            "expected_range": "3-12",
+            "within_range": false,
+            "distance_from_target": 7.0
+          }
+        }
+      }
+    },
+    {
+      "talk_id": "1976",
+      "language": "English",
+      "word_count": 1291,
+      "human_markers": {},
+      "system_markers": {
+        "interactional_self_mentions": 0,
+        "unknown_category": 0,
+        "interactive_frame_markers": 0,
+        "interactional_hedges": 0,
+        "interactive_endophoric_markers": 0,
+        "interactional_boosters": 0,
+        "interactive_code_glosses": 0,
+        "interactional_engagement_markers": 0,
+        "interactive_transitions": 0,
+        "interactional_attitude_markers": 0
+      },
+      "validation_metrics": {
+        "overall": {
+          "human_count": 0,
+          "system_count": 0,
+          "human_density": 0.0,
+          "system_density": 0.0,
+          "density_ratio": 0,
+          "density_difference": 0.0
+        },
+        "categories": {
+          "interactive_transitions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "unknown_category": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_endophoric_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_hedges": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_self_mentions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_boosters": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_attitude_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_code_glosses": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_engagement_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_frame_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          }
+        },
+        "macro_averaged": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "system_stats": {
+        "total_markers": 0,
+        "density_per_1k": 0.0,
+        "categories": {
+          "interactional_self_mentions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "unknown_category": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_frame_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_hedges": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_endophoric_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_boosters": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_code_glosses": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_engagement_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_transitions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_attitude_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          }
+        },
+        "validation_metrics": {
+          "evidence_based_filtering": true,
+          "context_adjustment_applied": true,
+          "density_limits_enforced": true
+        }
+      },
+      "benchmark_compliance": {
+        "overall": {
+          "density": 0.0,
+          "within_range": false,
+          "distance_from_optimal": 55.0,
+          "assessment": "non_compliant"
+        },
+        "categories": {
+          "interactional_self_mentions": {
+            "density": 0.0,
+            "expected_range": "2-15",
+            "within_range": false,
+            "distance_from_target": 8.0
+          },
+          "interactive_frame_markers": {
+            "density": 0.0,
+            "expected_range": "1-6",
+            "within_range": false,
+            "distance_from_target": 3.0
+          },
+          "interactional_hedges": {
+            "density": 0.0,
+            "expected_range": "8-20",
+            "within_range": false,
+            "distance_from_target": 13.0
+          },
+          "interactional_boosters": {
+            "density": 0.0,
+            "expected_range": "3-12",
+            "within_range": false,
+            "distance_from_target": 7.0
+          },
+          "interactive_code_glosses": {
+            "density": 0.0,
+            "expected_range": "1-8",
+            "within_range": false,
+            "distance_from_target": 4.0
+          },
+          "interactional_engagement_markers": {
+            "density": 0.0,
+            "expected_range": "2-10",
+            "within_range": false,
+            "distance_from_target": 6.0
+          },
+          "interactive_transitions": {
+            "density": 0.0,
+            "expected_range": "10-25",
+            "within_range": false,
+            "distance_from_target": 18.0
+          }
+        }
+      }
+    },
+    {
+      "talk_id": "1978",
+      "language": "English",
+      "word_count": 1435,
+      "human_markers": {},
+      "system_markers": {
+        "interactional_self_mentions": 0,
+        "interactive_transitions": 0,
+        "unknown_category": 0,
+        "interactive_frame_markers": 0,
+        "interactional_hedges": 0,
+        "interactional_engagement_markers": 0,
+        "interactive_code_glosses": 0,
+        "interactional_boosters": 0,
+        "interactive_endophoric_markers": 0,
+        "interactive_evidentials": 0
+      },
+      "validation_metrics": {
+        "overall": {
+          "human_count": 0,
+          "system_count": 0,
+          "human_density": 0.0,
+          "system_density": 0.0,
+          "density_ratio": 0,
+          "density_difference": 0.0
+        },
+        "categories": {
+          "unknown_category": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_code_glosses": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_endophoric_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_hedges": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_self_mentions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_evidentials": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_boosters": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_transitions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_engagement_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_frame_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          }
+        },
+        "macro_averaged": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "system_stats": {
+        "total_markers": 0,
+        "density_per_1k": 0.0,
+        "categories": {
+          "interactional_self_mentions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_transitions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "unknown_category": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_frame_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_hedges": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_engagement_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_code_glosses": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_boosters": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_endophoric_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_evidentials": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          }
+        },
+        "validation_metrics": {
+          "evidence_based_filtering": true,
+          "context_adjustment_applied": true,
+          "density_limits_enforced": true
+        }
+      },
+      "benchmark_compliance": {
+        "overall": {
+          "density": 0.0,
+          "within_range": false,
+          "distance_from_optimal": 55.0,
+          "assessment": "non_compliant"
+        },
+        "categories": {
+          "interactional_self_mentions": {
+            "density": 0.0,
+            "expected_range": "2-15",
+            "within_range": false,
+            "distance_from_target": 8.0
+          },
+          "interactive_transitions": {
+            "density": 0.0,
+            "expected_range": "10-25",
+            "within_range": false,
+            "distance_from_target": 18.0
+          },
+          "interactive_frame_markers": {
+            "density": 0.0,
+            "expected_range": "1-6",
+            "within_range": false,
+            "distance_from_target": 3.0
+          },
+          "interactional_hedges": {
+            "density": 0.0,
+            "expected_range": "8-20",
+            "within_range": false,
+            "distance_from_target": 13.0
+          },
+          "interactional_engagement_markers": {
+            "density": 0.0,
+            "expected_range": "2-10",
+            "within_range": false,
+            "distance_from_target": 6.0
+          },
+          "interactive_code_glosses": {
+            "density": 0.0,
+            "expected_range": "1-8",
+            "within_range": false,
+            "distance_from_target": 4.0
+          },
+          "interactional_boosters": {
+            "density": 0.0,
+            "expected_range": "3-12",
+            "within_range": false,
+            "distance_from_target": 7.0
+          }
+        }
+      }
+    },
+    {
+      "talk_id": "2009",
+      "language": "English",
+      "word_count": 536,
+      "human_markers": {},
+      "system_markers": {
+        "interactional_self_mentions": 0,
+        "interactional_boosters": 0,
+        "interactional_hedges": 0,
+        "interactional_engagement_markers": 0,
+        "interactive_transitions": 0,
+        "interactive_endophoric_markers": 0,
+        "interactive_code_glosses": 0
+      },
+      "validation_metrics": {
+        "overall": {
+          "human_count": 0,
+          "system_count": 0,
+          "human_density": 0.0,
+          "system_density": 0.0,
+          "density_ratio": 0,
+          "density_difference": 0.0
+        },
+        "categories": {
+          "interactive_transitions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_endophoric_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_boosters": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactive_code_glosses": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_hedges": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_engagement_markers": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          },
+          "interactional_self_mentions": {
+            "human_count": 0,
+            "system_count": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "human_density": 0.0,
+            "system_density": 0.0
+          }
+        },
+        "macro_averaged": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0
+        }
+      },
+      "system_stats": {
+        "total_markers": 0,
+        "density_per_1k": 0.0,
+        "categories": {
+          "interactional_self_mentions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_boosters": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_hedges": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactional_engagement_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_transitions": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_endophoric_markers": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          },
+          "interactive_code_glosses": {
+            "count": 0,
+            "density_per_1k": 0.0,
+            "avg_confidence": 0,
+            "confidence_std": 0
+          }
+        },
+        "validation_metrics": {
+          "evidence_based_filtering": true,
+          "context_adjustment_applied": true,
+          "density_limits_enforced": true
+        }
+      },
+      "benchmark_compliance": {
+        "overall": {
+          "density": 0.0,
+          "within_range": false,
+          "distance_from_optimal": 55.0,
+          "assessment": "non_compliant"
+        },
+        "categories": {
+          "interactional_self_mentions": {
+            "density": 0.0,
+            "expected_range": "2-15",
+            "within_range": false,
+            "distance_from_target": 8.0
+          },
+          "interactional_boosters": {
+            "density": 0.0,
+            "expected_range": "3-12",
+            "within_range": false,
+            "distance_from_target": 7.0
+          },
+          "interactional_hedges": {
+            "density": 0.0,
+            "expected_range": "8-20",
+            "within_range": false,
+            "distance_from_target": 13.0
+          },
+          "interactional_engagement_markers": {
+            "density": 0.0,
+            "expected_range": "2-10",
+            "within_range": false,
+            "distance_from_target": 6.0
+          },
+          "interactive_transitions": {
+            "density": 0.0,
+            "expected_range": "10-25",
+            "within_range": false,
+            "distance_from_target": 18.0
+          },
+          "interactive_code_glosses": {
+            "density": 0.0,
+            "expected_range": "1-8",
+            "within_range": false,
+            "distance_from_target": 4.0
+          }
+        }
+      }
+    }
+  ],
+  "validation_errors": [
+    {
+      "error": "Could not load talk 2150"
+    }
+  ]
+}

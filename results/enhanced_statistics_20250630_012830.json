@@ -1,0 +1,31 @@
+{
+  "corpus_overview": {
+    "total_documents": 286,
+    "total_words": "83693",
+    "avg_words_per_document": 292.63286713286715,
+    "total_sentences": "659",
+    "avg_sentences_per_document": 2.304195804195804
+  },
+  "enhanced_metrics": {
+    "word_count": {
+      "total": "83693",
+      "mean": 292.63286713286715,
+      "std": 350.90724745931084,
+      "min": "0",
+      "max": "1162"
+    },
+    "sentence_count": {
+      "total": "659",
+      "mean": 2.304195804195804,
+      "std": 3.1802763672442853,
+      "min": "0",
+      "max": "14"
+    }
+  },
+  "l1_analysis": {},
+  "confidence_analysis": {
+    "overall_confidence": 0.8941843518281771,
+    "high_confidence_rate": 0.9939913065712094,
+    "polyfunctional_resolution_rate": 0.0944055944055944
+  }
+}

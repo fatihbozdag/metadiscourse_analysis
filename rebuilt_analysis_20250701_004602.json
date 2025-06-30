@@ -1,0 +1,829 @@
+{
+  "analysis_type": "rebuilt_precision",
+  "corpus_statistics": {
+    "documents_processed": 20,
+    "total_words": 14141,
+    "total_markers": 48,
+    "overall_density": 3.394385121278552,
+    "avg_confidence": 0.7166666666666662,
+    "category_statistics": {
+      "interactional_boosters": {
+        "count": 4,
+        "density": 0.28286542677321264,
+        "percentage": 8.333333333333332
+      },
+      "interactional_engagement_markers": {
+        "count": 5,
+        "density": 0.3535817834665158,
+        "percentage": 10.416666666666668
+      },
+      "interactive_evidentials": {
+        "count": 6,
+        "density": 0.424298140159819,
+        "percentage": 12.5
+      },
+      "interactional_hedges": {
+        "count": 13,
+        "density": 0.9193126370129411,
+        "percentage": 27.083333333333332
+      },
+      "interactional_self_mentions": {
+        "count": 8,
+        "density": 0.5657308535464253,
+        "percentage": 16.666666666666664
+      },
+      "interactive_frame_markers": {
+        "count": 9,
+        "density": 0.6364472102397285,
+        "percentage": 18.75
+      },
+      "interactive_code_glosses": {
+        "count": 3,
+        "density": 0.2121490700799095,
+        "percentage": 6.25
+      }
+    }
+  },
+  "quality_metrics": {
+    "strict_patterns": true,
+    "context_validation": true,
+    "minimum_confidence": 0.7,
+    "duplicate_removal": true
+  },
+  "detailed_results": {
+    "doc_0": {
+      "doc_id": "doc_0",
+      "word_count": 717,
+      "total_markers": 4,
+      "density": 5.578800557880055,
+      "markers": {
+        "interactional_boosters": [
+          {
+            "marker": "definitely is",
+            "confidence": 0.7,
+            "position": [
+              84,
+              97
+            ],
+            "context": "  \tNowadays university deegrees become the target of students life Higher education definitely is a ticket for brighter future The benefits that university education can provide for the students ar",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bdefinitely\\s+\\w+"
+          }
+        ],
+        "interactional_engagement_markers": [
+          {
+            "marker": "consider that",
+            "confidence": 0.7,
+            "position": [
+              2168,
+              2181
+            ],
+            "context": "rsonality\tOn the other hand not all students view having a degree as a necessity Most of the people consider that it is possible to be successful without postgraduate study According to them certificate is nothing",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bconsider\\s+(?:that|how|the)\\b"
+          }
+        ],
+        "interactive_evidentials": [
+          {
+            "marker": "According to them",
+            "confidence": 0.7,
+            "position": [
+              1566,
+              1583
+            ],
+            "context": "during the years of the learning Its the first and the most important stepping stone toward success According to them nobody care for students aims ambitions and knowledge without a degree The most important argument ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\baccording\\s+to\\s+\\w+"
+          },
+          {
+            "marker": "According to them",
+            "confidence": 0.7,
+            "position": [
+              2241,
+              2258
+            ],
+            "context": "cessity Most of the people consider that it is possible to be successful without postgraduate study According to them certificate is nothing but a stereotypical way of judging a persons ability So different individual",
+            "reason": "Pattern-based detection",
+            "pattern": "\\baccording\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  \tNowadays university deegrees become the target of students life Higher education definitely is a ticket for brighter future The benefits that university education can provide for the students are e..."
+    },
+    "doc_1": {
+      "doc_id": "doc_1",
+      "word_count": 676,
+      "total_markers": 4,
+      "density": 5.9171597633136095,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "seem to have",
+            "confidence": 0.7,
+            "position": [
+              383,
+              395
+            ],
+            "context": "n the workplace and establishing more autonomous female individuals in the society Today main goals seem to have been achieved in western society however it is not the case throughout the world Interestingly nowa",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              3661,
+              3672
+            ],
+            "context": " mainly based on the negative connotation the word has Interestingly the only point of disagreement seems to be whether they consider the word feminism as positive or negative Other than that both sides celebrat",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              3945,
+              3956
+            ],
+            "context": " the heated discussions over the necessity of feminism will remain popular in the near future There seems to be a positive improvement in the viewpoints of the people in this century and the biggest disagreement",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ],
+        "interactional_engagement_markers": [
+          {
+            "marker": "consider the",
+            "confidence": 0.7,
+            "position": [
+              3686,
+              3698
+            ],
+            "context": "tive connotation the word has Interestingly the only point of disagreement seems to be whether they consider the word feminism as positive or negative Other than that both sides celebrate gender equality and resp",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bconsider\\s+(?:that|how|the)\\b"
+          }
+        ]
+      },
+      "text_preview": "  \tFeminism commenced as an epochmaking movement aiming to establish a common ground for women to have the same rights as men in every sphere of society First wave of feminists aim was to have the rig..."
+    },
+    "doc_2": {
+      "doc_id": "doc_2",
+      "word_count": 302,
+      "total_markers": 2,
+      "density": 6.622516556291391,
+      "markers": {
+        "interactional_boosters": [
+          {
+            "marker": "must be",
+            "confidence": 0.7,
+            "position": [
+              771,
+              778
+            ],
+            "context": "g are you using Who are the followers of Humanism Whats the difference between CLL and CLT Students must be able to reply to some basic questions If this teacher fails in his answers nobody will trust him at",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmust\\s+be\\b"
+          }
+        ],
+        "interactional_self_mentions": [
+          {
+            "marker": "I believe",
+            "confidence": 0.8,
+            "position": [
+              1562,
+              1571
+            ],
+            "context": "al class at universities Theory without usage is meaningless and purposelessTo put it in a nutshell I believe if we implement alone these two methods theoretical and practical we will have more drawbacks than ",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          }
+        ]
+      },
+      "text_preview": "  In this competitive world to achieve complete knowledge students must learn both theoretical and practical aspects of it in a balanced way in their universities  Knowing some theories about your fie..."
+    },
+    "doc_3": {
+      "doc_id": "doc_3",
+      "word_count": 552,
+      "total_markers": 5,
+      "density": 9.057971014492754,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "could be",
+            "confidence": 0.7,
+            "position": [
+              2179,
+              2187
+            ],
+            "context": "er punishment or treatment  Incarceration is a shortterm solution for many offenders Rehabilitation could be a longterm solution to help offenders become lawabiding citizens Once inmates have passed the first",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bcould\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              951,
+              962
+            ],
+            "context": "cts as an effective deterrent against committing crimes As to the second justification imprisonment seems to be necessary in order to stop criminals from doing more harm __serial killers kidnappers smugglers etc",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              3300,
+              3311
+            ],
+            "context": "o say that rehabilitation may help prevent crime in the society to some extent However imprisonment seems to be necessary to put the fear of imprisonment into potential criminals ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ],
+        "interactive_frame_markers": [
+          {
+            "marker": "in order to punish",
+            "confidence": 0.7,
+            "position": [
+              583,
+              601
+            ],
+            "context": "g right education can deter criminal activities  The common belief about prisons is that they exist in order to punish criminals to keep imminent threat away from the society and reform the character of those who have ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          },
+          {
+            "marker": "in order to stop",
+            "confidence": 0.7,
+            "position": [
+              973,
+              989
+            ],
+            "context": "terrent against committing crimes As to the second justification imprisonment seems to be necessary in order to stop criminals from doing more harm __serial killers kidnappers smugglers etc to name a few Imprisonment",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  The topic or sentences as It is high time to shift focus from punishment to rehabilitation may seem lofty at first sight but once contemplated they are not downtoearth Any civilized society needs to..."
+    },
+    "doc_4": {
+      "doc_id": "doc_4",
+      "word_count": 962,
+      "total_markers": 2,
+      "density": 2.079002079002079,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "might be",
+            "confidence": 0.7,
+            "position": [
+              4059,
+              4067
+            ],
+            "context": " way of living and lifestyles With this and by finding out what was their problem simultaneously we might be able to either solve or eliminate their obstacles in life Those reasons may consist of mental disor",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmight\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "may have",
+            "confidence": 0.7,
+            "position": [
+              4214,
+              4222
+            ],
+            "context": "les in life Those reasons may consist of mental disorders and environmental problems of which heshe may have committed the crime Gathering information from their background and getting familiar with the priso",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmay\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ]
+      },
+      "text_preview": "  Human beings born free that is all people have equal right to freedom But it does not mean that we can do whatever we want In fact we live together in communities along with all those differences we..."
+    },
+    "doc_5": {
+      "doc_id": "doc_5",
+      "word_count": 557,
+      "total_markers": 0,
+      "density": 0.0,
+      "markers": {},
+      "text_preview": "  \t\tTechnology today entered in all the sides of our lives whether one likes it or not It is very important to state that many people today oft condense their time for their lives and they give life t..."
+    },
+    "doc_6": {
+      "doc_id": "doc_6",
+      "word_count": 593,
+      "total_markers": 0,
+      "density": 0.0,
+      "markers": {},
+      "text_preview": "  \tOne of the spectacular unwritten rules in this world is that the theory and the real world practice are two totally different things There are lots of things that cannot be understood unless percei..."
+    },
+    "doc_7": {
+      "doc_id": "doc_7",
+      "word_count": 813,
+      "total_markers": 4,
+      "density": 4.920049200492005,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "might be",
+            "confidence": 0.7,
+            "position": [
+              3369,
+              3377
+            ],
+            "context": "to falsify the drug test will mean a six game ban R  This is a serious matter and even though there might be some exceptions the NFL has mainly done a solid job of reacting properly to these types of issues a",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmight\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ],
+        "interactive_frame_markers": [
+          {
+            "marker": "in order to repel",
+            "confidence": 0.7,
+            "position": [
+              205,
+              222
+            ],
+            "context": "hletes not just from the NFL but from other sports as well turn to PEDs Performance Enhancing Drugs in order to repel severe physical contact and injuries which are in the nature of their respective sports When it com",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          },
+          {
+            "marker": "in order to reach",
+            "confidence": 0.7,
+            "position": [
+              1842,
+              1859
+            ],
+            "context": " using performance enhancing drugs \tWhen it comes to NFLs drug policy many revisions have been made in order to reach the goal of creating an equal playing field for the athletes The drugtesting program includes provi",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          },
+          {
+            "marker": "the goal of creating",
+            "confidence": 0.7,
+            "position": [
+              1860,
+              1880
+            ],
+            "context": " enhancing drugs \tWhen it comes to NFLs drug policy many revisions have been made in order to reach the goal of creating an equal playing field for the athletes The drugtesting program includes provisions under which all",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bthe\\s+goal\\s+(?:is|of)\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  \tBeing an athlete in the National Football League NFL these days is a difficult and a demanding task Athletes not just from the NFL but from other sports as well turn to PEDs Performance Enhancing D..."
+    },
+    "doc_8": {
+      "doc_id": "doc_8",
+      "word_count": 1162,
+      "total_markers": 1,
+      "density": 0.8605851979345955,
+      "markers": {
+        "interactive_evidentials": [
+          {
+            "marker": "According to BaronCohen",
+            "confidence": 0.7,
+            "position": [
+              5238,
+              5261
+            ],
+            "context": "ng that a child has already commited a crime our attention should concentrate on the justice system According to BaronCohen imprisonment is necessary only for the most serious crimes R  In the same way Jessica S Henry goes ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\baccording\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  \tDefining the term Evil has been one of the most challenging tasks throughout the human history Being considered as the counterpart of good it seems almost impossible to extinguish it thoroughly On ..."
+    },
+    "doc_9": {
+      "doc_id": "doc_9",
+      "word_count": 648,
+      "total_markers": 3,
+      "density": 4.62962962962963,
+      "markers": {
+        "interactive_code_glosses": [
+          {
+            "marker": "such as loyalty",
+            "confidence": 0.7,
+            "position": [
+              2941,
+              2956
+            ],
+            "context": "n his piece called The Moral Equivalent of War William James notes that  R  Basically moral motives such as loyalty patriotism and the idea that serving for ones nation is considered noble and it brings discipline m",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bsuch\\s+as\\s+\\w+"
+          }
+        ],
+        "interactive_evidentials": [
+          {
+            "marker": "Benatar states that",
+            "confidence": 0.7,
+            "position": [
+              870,
+              889
+            ],
+            "context": "lly feminists claim that the nature of the military service system is patriarchal Philosopher David Benatar states that  R  This he believes  R  Another valid argument against the value of the system of military service",
+            "reason": "Pattern-based detection",
+            "pattern": "\\b\\w+\\s+(?:states|claims|argues|suggests)\\s+that\\b"
+          }
+        ],
+        "interactive_frame_markers": [
+          {
+            "marker": "in order to protect",
+            "confidence": 0.7,
+            "position": [
+              2016,
+              2035
+            ],
+            "context": " For centuries authorities in charge have applied the mandatory enlisting of people to their armies in order to protect themselves and their countries This is still the case nowadays especially in the Middle East where ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  \tPeople have enlisted in armies ever since ancient times up to today Compulsory military drafting or the more popular term nowadays known as conscription has had a colossal impact on countries commu..."
+    },
+    "doc_10": {
+      "doc_id": "doc_10",
+      "word_count": 580,
+      "total_markers": 2,
+      "density": 3.4482758620689653,
+      "markers": {
+        "interactional_engagement_markers": [
+          {
+            "marker": "consider the",
+            "confidence": 0.7,
+            "position": [
+              2838,
+              2850
+            ],
+            "context": "are no longer full with the crowded people as an example In fact besides all these things we should consider the education factor Education helps to invent and provides to develop inventions  as the inventions he",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bconsider\\s+(?:that|how|the)\\b"
+          },
+          {
+            "marker": "we should consider",
+            "confidence": 0.7,
+            "position": [
+              2828,
+              2846
+            ],
+            "context": "The banks are no longer full with the crowded people as an example In fact besides all these things we should consider the education factor Education helps to invent and provides to develop inventions  as the invention",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bwe\\s+(?:can|should|need to|must)\\s+(?:see|note|consider)\\b"
+          }
+        ]
+      },
+      "text_preview": "  As the time passes the number of inventions of human beings are increasing according to human needs As humans will and want to remove their lack  they create and invent day by day  This inventions a..."
+    },
+    "doc_11": {
+      "doc_id": "doc_11",
+      "word_count": 567,
+      "total_markers": 3,
+      "density": 5.291005291005291,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "probably that",
+            "confidence": 0.7,
+            "position": [
+              76,
+              89
+            ],
+            "context": "  The most discussed question beginning from the Creation of human being is probably that whether woman and men are equal or not Its nonsense to discuss which group is superior to another s",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bprobably\\s+\\w+"
+          }
+        ],
+        "interactive_code_glosses": [
+          {
+            "marker": "such as politics",
+            "confidence": 0.7,
+            "position": [
+              348,
+              364
+            ],
+            "context": "ghts one should not dominate the other But although women prove themselves in many different fields such as politics economic industry etc especially in the last few decades the general idea about men superiority has",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bsuch\\s+as\\s+\\w+"
+          },
+          {
+            "marker": "such as doctors",
+            "confidence": 0.7,
+            "position": [
+              2104,
+              2119
+            ],
+            "context": "strange thing is that not only uneducated men but also men having high social status in the society such as doctors politicians etc beat their a newspaper the wife of a rector how she had been beaten by her husband ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bsuch\\s+as\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  The most discussed question beginning from the Creation of human being is probably that whether woman and men are equal or not Its nonsense to discuss which group is superior to another since they a..."
+    },
+    "doc_12": {
+      "doc_id": "doc_12",
+      "word_count": 574,
+      "total_markers": 4,
+      "density": 6.968641114982578,
+      "markers": {
+        "interactional_engagement_markers": [
+          {
+            "marker": "We can see",
+            "confidence": 0.7,
+            "position": [
+              2072,
+              2082
+            ],
+            "context": "y and had experience of it In which way would your comments be effective Can you see the difference We can see this difference in our country  s universities more clearly Many lessons in most departments are un",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bwe\\s+(?:can|should|need to|must)\\s+(?:see|note|consider)\\b"
+          }
+        ],
+        "interactional_self_mentions": [
+          {
+            "marker": "I think",
+            "confidence": 0.8,
+            "position": [
+              1591,
+              1598
+            ],
+            "context": " is learnt theoretically is exposed to be forgotten and its permanence is very little value However I think if we present education in a practical way and enable their participations to thelessons it will be",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          }
+        ],
+        "interactive_evidentials": [
+          {
+            "marker": "according to their",
+            "confidence": 0.7,
+            "position": [
+              525,
+              543
+            ],
+            "context": "es together with the development level of that country If universities goal is to prepare thepeople according to their professions their first target should be to makethese people professionally competence Therefore th",
+            "reason": "Pattern-based detection",
+            "pattern": "\\baccording\\s+to\\s+\\w+"
+          }
+        ],
+        "interactive_frame_markers": [
+          {
+            "marker": "regarding to",
+            "confidence": 0.7,
+            "position": [
+              2979,
+              2991
+            ],
+            "context": "he universities whose aim is to educate qualified people should set up their own education policies regarding to these criteria Unfortunately this lack of the universities effects not only the fate of countries b",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bregarding\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  Today universities whose numbers are more than thousands all over the world are significant education institutions that educate peopleaccording to profession fields So which factors make these educa..."
+    },
+    "doc_13": {
+      "doc_id": "doc_13",
+      "word_count": 961,
+      "total_markers": 2,
+      "density": 2.081165452653486,
+      "markers": {
+        "interactional_self_mentions": [
+          {
+            "marker": "I think",
+            "confidence": 0.8,
+            "position": [
+              3609,
+              3616
+            ],
+            "context": "ties  At that point my degree in the university does not mean any thing for using the knowledgeWhen I think about the governmental side of finding a job I am confronted with KPSS It is a drawback after gradu",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          }
+        ],
+        "interactive_frame_markers": [
+          {
+            "marker": "in order to challenge",
+            "confidence": 0.7,
+            "position": [
+              525,
+              546
+            ],
+            "context": "ry and again that country tries to import not only most of its goods but also some of its ministers in order to challenge the economy Unfortunately in that country people live on average sixty years One the other hand all",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  I am a Turkish citizen I live in Turkey and that country is a developing country It is not developed or underdeveloped and it has been developing for much many years On the one hand most people in t..."
+    },
+    "doc_14": {
+      "doc_id": "doc_14",
+      "word_count": 1040,
+      "total_markers": 3,
+      "density": 2.8846153846153846,
+      "markers": {
+        "interactional_self_mentions": [
+          {
+            "marker": "I think",
+            "confidence": 0.8,
+            "position": [
+              1511,
+              1518
+            ],
+            "context": "rion for a position The most important another reason of having university degrees little value is  I think that they do not prepare students for the real life That is to say  a university degree is far away",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          }
+        ],
+        "interactive_evidentials": [
+          {
+            "marker": "according to some",
+            "confidence": 0.7,
+            "position": [
+              1680,
+              1697
+            ],
+            "context": "o say  a university degree is far away from the real life itself of a student Students are educated according to some schedules in universities All perspectives or different ideas of any branch are taught to students ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\baccording\\s+to\\s+\\w+"
+          }
+        ],
+        "interactive_frame_markers": [
+          {
+            "marker": "in order to pass",
+            "confidence": 0.7,
+            "position": [
+              2166,
+              2182
+            ],
+            "context": "first three year of sixmore year education They are given slides or data and asked to memorize them in order to pass exams at the end of each unit called TEM Their job is related to human body but they are not inform",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  Some people claim that having a university degree is necessary if we want a brilliant future whereas others claim that it is not so important because these degrees do not prepare students for real l..."
+    },
+    "doc_15": {
+      "doc_id": "doc_15",
+      "word_count": 658,
+      "total_markers": 2,
+      "density": 3.0395136778115504,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "could be",
+            "confidence": 0.7,
+            "position": [
+              2055,
+              2063
+            ],
+            "context": " they equal in their education quality What is the offense of Harran University graduate The answer could be the opportunities or the education quality they have but there shouldnt be such differences among u",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bcould\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "could be",
+            "confidence": 0.7,
+            "position": [
+              2556,
+              2564
+            ],
+            "context": " but these courses can be applied in ideal classes which consist of 20 students so that the teacher could be able to involve each student actively in the activities he or she prepares However when we have a l",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bcould\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ]
+      },
+      "text_preview": "  Nowadays there have been many debates on whether most university degrees are theoretical and dont prepare students for real world or not There are many factors that make universities fail to prepare..."
+    },
+    "doc_16": {
+      "doc_id": "doc_16",
+      "word_count": 630,
+      "total_markers": 0,
+      "density": 0.0,
+      "markers": {},
+      "text_preview": "  Is the knowledge taken at the university enough to find a good job University is an education place where akademic knowledge is given A great many people attend university to take education to find ..."
+    },
+    "doc_17": {
+      "doc_id": "doc_17",
+      "word_count": 719,
+      "total_markers": 1,
+      "density": 1.3908205841446453,
+      "markers": {
+        "interactional_boosters": [
+          {
+            "marker": "must be",
+            "confidence": 0.7,
+            "position": [
+              38,
+              45
+            ],
+            "context": "  University student real world There must be a relationship between these three concepts but is there really a connection between them today Doe",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmust\\s+be\\b"
+          }
+        ]
+      },
+      "text_preview": "  University student real world There must be a relationship between these three concepts but is there really a connection between them today Does university really prepare the students for the real w..."
+    },
+    "doc_18": {
+      "doc_id": "doc_18",
+      "word_count": 598,
+      "total_markers": 1,
+      "density": 1.6722408026755853,
+      "markers": {
+        "interactional_self_mentions": [
+          {
+            "marker": "I think",
+            "confidence": 0.8,
+            "position": [
+              682,
+              689
+            ],
+            "context": " apply for a good job in a company the first question is wheather you have university degree or not I think the reason of this is having many unemployment people and this is a good way to choose which person",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          }
+        ]
+      },
+      "text_preview": "  The education in university is important for many people all around the world and so many people are giving effort to take a place in university classroom In addition to this three questions come in..."
+    },
+    "doc_19": {
+      "doc_id": "doc_19",
+      "word_count": 832,
+      "total_markers": 5,
+      "density": 6.009615384615385,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "perhaps Turkey",
+            "confidence": 0.7,
+            "position": [
+              3299,
+              3313
+            ],
+            "context": "urkey be poor 50 percent If media didnt interfere in it and announce it just afterward of the event perhaps Turkey wouldnt have lived so many difficult days Last of all Media affects the peoples thinking power The ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bperhaps\\s+\\w+"
+          }
+        ],
+        "interactional_boosters": [
+          {
+            "marker": "certainly made",
+            "confidence": 0.7,
+            "position": [
+              2126,
+              2140
+            ],
+            "context": "e in a way For another example we have learnt that S\u00fcreyya Ayhan became the winner athletics and it certainly made us be proud of her But later we heard accidentally when we turned on TV that she was living somethi",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bcertainly\\s+\\w+"
+          }
+        ],
+        "interactional_self_mentions": [
+          {
+            "marker": "I think",
+            "confidence": 0.8,
+            "position": [
+              272,
+              279
+            ],
+            "context": " number of reasons from now on First media should not interfere in the peoples private life so much I think that it is not right for them to make the news I mean to tell some not true news over and over For ",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          },
+          {
+            "marker": "I think",
+            "confidence": 0.8,
+            "position": [
+              861,
+              868
+            ],
+            "context": "ly of her and she tried to be a solist and she was about to be assassinated at her very first night I think it is again due to media If they hadnt talked so highly of her to be a singer at stage she wouldnt ",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          },
+          {
+            "marker": "I think",
+            "confidence": 0.8,
+            "position": [
+              2570,
+              2577
+            ],
+            "context": "I believe that it is not true for media to make some news about the secret subjects of a government I think that special topics for a government should not leak out by media If they are important subjects fo",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          }
+        ]
+      },
+      "text_preview": "  Media is everywhere in our daily life As we know it observes and watches everything so much that we have started to feel that media shouldnt interfere in everything for a number of reasons from now ..."
+    }
+  },
+  "timestamp": "20250701_004602"
+}

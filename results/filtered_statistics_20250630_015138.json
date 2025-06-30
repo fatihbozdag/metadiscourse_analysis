@@ -1,0 +1,39 @@
+{
+  "processing_info": {
+    "timestamp": "20250630_015138",
+    "total_documents": 286,
+    "successful_documents": 286,
+    "errors": 0,
+    "accuracy": 100.0,
+    "filtering_applied": true,
+    "confidence_threshold": 0.85,
+    "frequency_caps_applied": true
+  },
+  "corpus_statistics": {
+    "total_words": 202494,
+    "total_markers": 9452,
+    "marker_density_per_1000_words": 46.67792625954349,
+    "interactive_markers": 4275,
+    "interactional_markers": 5177,
+    "interactive_percentage": 45.22852306390182,
+    "interactional_percentage": 54.77147693609818
+  },
+  "category_statistics": {
+    "interactional_boosters": 1063,
+    "interactive_transitions": 2185,
+    "interactive_frame_markers": 864,
+    "interactional_hedges": 2807,
+    "interactive_code_glosses": 669,
+    "interactional_engagement_markers": 803,
+    "interactive_evidentials": 170,
+    "interactional_self_mentions": 363,
+    "interactional_attitude_markers": 141,
+    "interactive_endophoric_markers": 387
+  },
+  "filtering_impact": {
+    "note": "This analysis uses enhanced filtering to reduce over-detection",
+    "expected_density_range": "40-75 per 1000 words (research benchmarks)",
+    "actual_density": 46.67792625954349,
+    "within_expected_range": true
+  }
+}

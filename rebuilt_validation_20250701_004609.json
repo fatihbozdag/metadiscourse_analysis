@@ -1,0 +1,408 @@
+{
+  "validation_type": "rebuilt_system_test",
+  "overall_metrics": {
+    "total_detected": 17,
+    "true_positives": 13,
+    "false_positives": 4,
+    "precision": 0.7647058823529411,
+    "validated_density": 4.05110626363353,
+    "grade": "B (GOOD)"
+  },
+  "error_analysis": {
+    "": 3,
+    "Auxiliary use, not hedging": 1
+  },
+  "document_results": {
+    "doc_0": {
+      "doc_id": "doc_0",
+      "word_count": 717,
+      "total_markers": 4,
+      "density": 5.578800557880055,
+      "markers": {
+        "interactional_boosters": [
+          {
+            "marker": "definitely is",
+            "confidence": 0.7,
+            "position": [
+              84,
+              97
+            ],
+            "context": "  \tNowadays university deegrees become the target of students life Higher education definitely is a ticket for brighter future The benefits that university education can provide for the students ar",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bdefinitely\\s+\\w+"
+          }
+        ],
+        "interactional_engagement_markers": [
+          {
+            "marker": "consider that",
+            "confidence": 0.7,
+            "position": [
+              2168,
+              2181
+            ],
+            "context": "rsonality\tOn the other hand not all students view having a degree as a necessity Most of the people consider that it is possible to be successful without postgraduate study According to them certificate is nothing",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bconsider\\s+(?:that|how|the)\\b"
+          }
+        ],
+        "interactive_evidentials": [
+          {
+            "marker": "According to them",
+            "confidence": 0.7,
+            "position": [
+              1566,
+              1583
+            ],
+            "context": "during the years of the learning Its the first and the most important stepping stone toward success According to them nobody care for students aims ambitions and knowledge without a degree The most important argument ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\baccording\\s+to\\s+\\w+"
+          },
+          {
+            "marker": "According to them",
+            "confidence": 0.7,
+            "position": [
+              2241,
+              2258
+            ],
+            "context": "cessity Most of the people consider that it is possible to be successful without postgraduate study According to them certificate is nothing but a stereotypical way of judging a persons ability So different individual",
+            "reason": "Pattern-based detection",
+            "pattern": "\\baccording\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  \tNowadays university deegrees become the target of students life Higher education definitely is a ticket for brighter future The benefits that university education can provide for the students are e..."
+    },
+    "doc_1": {
+      "doc_id": "doc_1",
+      "word_count": 676,
+      "total_markers": 4,
+      "density": 5.9171597633136095,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "seem to have",
+            "confidence": 0.7,
+            "position": [
+              383,
+              395
+            ],
+            "context": "n the workplace and establishing more autonomous female individuals in the society Today main goals seem to have been achieved in western society however it is not the case throughout the world Interestingly nowa",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              3661,
+              3672
+            ],
+            "context": " mainly based on the negative connotation the word has Interestingly the only point of disagreement seems to be whether they consider the word feminism as positive or negative Other than that both sides celebrat",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              3945,
+              3956
+            ],
+            "context": " the heated discussions over the necessity of feminism will remain popular in the near future There seems to be a positive improvement in the viewpoints of the people in this century and the biggest disagreement",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ],
+        "interactional_engagement_markers": [
+          {
+            "marker": "consider the",
+            "confidence": 0.7,
+            "position": [
+              3686,
+              3698
+            ],
+            "context": "tive connotation the word has Interestingly the only point of disagreement seems to be whether they consider the word feminism as positive or negative Other than that both sides celebrate gender equality and resp",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bconsider\\s+(?:that|how|the)\\b"
+          }
+        ]
+      },
+      "text_preview": "  \tFeminism commenced as an epochmaking movement aiming to establish a common ground for women to have the same rights as men in every sphere of society First wave of feminists aim was to have the rig..."
+    },
+    "doc_2": {
+      "doc_id": "doc_2",
+      "word_count": 302,
+      "total_markers": 2,
+      "density": 6.622516556291391,
+      "markers": {
+        "interactional_boosters": [
+          {
+            "marker": "must be",
+            "confidence": 0.7,
+            "position": [
+              771,
+              778
+            ],
+            "context": "g are you using Who are the followers of Humanism Whats the difference between CLL and CLT Students must be able to reply to some basic questions If this teacher fails in his answers nobody will trust him at",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmust\\s+be\\b"
+          }
+        ],
+        "interactional_self_mentions": [
+          {
+            "marker": "I believe",
+            "confidence": 0.8,
+            "position": [
+              1562,
+              1571
+            ],
+            "context": "al class at universities Theory without usage is meaningless and purposelessTo put it in a nutshell I believe if we implement alone these two methods theoretical and practical we will have more drawbacks than ",
+            "reason": "Academic self-mention",
+            "pattern": "\\bi\\s+(?:argue|believe|think|suggest|propose|claim|conclude)\\b"
+          }
+        ]
+      },
+      "text_preview": "  In this competitive world to achieve complete knowledge students must learn both theoretical and practical aspects of it in a balanced way in their universities  Knowing some theories about your fie..."
+    },
+    "doc_3": {
+      "doc_id": "doc_3",
+      "word_count": 552,
+      "total_markers": 5,
+      "density": 9.057971014492754,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "could be",
+            "confidence": 0.7,
+            "position": [
+              2179,
+              2187
+            ],
+            "context": "er punishment or treatment  Incarceration is a shortterm solution for many offenders Rehabilitation could be a longterm solution to help offenders become lawabiding citizens Once inmates have passed the first",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bcould\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              951,
+              962
+            ],
+            "context": "cts as an effective deterrent against committing crimes As to the second justification imprisonment seems to be necessary in order to stop criminals from doing more harm __serial killers kidnappers smugglers etc",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "seems to be",
+            "confidence": 0.7,
+            "position": [
+              3300,
+              3311
+            ],
+            "context": "o say that rehabilitation may help prevent crime in the society to some extent However imprisonment seems to be necessary to put the fear of imprisonment into potential criminals ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bseems?\\s+to\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ],
+        "interactive_frame_markers": [
+          {
+            "marker": "in order to punish",
+            "confidence": 0.7,
+            "position": [
+              583,
+              601
+            ],
+            "context": "g right education can deter criminal activities  The common belief about prisons is that they exist in order to punish criminals to keep imminent threat away from the society and reform the character of those who have ",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          },
+          {
+            "marker": "in order to stop",
+            "confidence": 0.7,
+            "position": [
+              973,
+              989
+            ],
+            "context": "terrent against committing crimes As to the second justification imprisonment seems to be necessary in order to stop criminals from doing more harm __serial killers kidnappers smugglers etc to name a few Imprisonment",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bin\\s+order\\s+to\\s+\\w+"
+          }
+        ]
+      },
+      "text_preview": "  The topic or sentences as It is high time to shift focus from punishment to rehabilitation may seem lofty at first sight but once contemplated they are not downtoearth Any civilized society needs to..."
+    },
+    "doc_4": {
+      "doc_id": "doc_4",
+      "word_count": 962,
+      "total_markers": 2,
+      "density": 2.079002079002079,
+      "markers": {
+        "interactional_hedges": [
+          {
+            "marker": "might be",
+            "confidence": 0.7,
+            "position": [
+              4059,
+              4067
+            ],
+            "context": " way of living and lifestyles With this and by finding out what was their problem simultaneously we might be able to either solve or eliminate their obstacles in life Those reasons may consist of mental disor",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmight\\s+(?:be|have|suggest|indicate)\\b"
+          },
+          {
+            "marker": "may have",
+            "confidence": 0.7,
+            "position": [
+              4214,
+              4222
+            ],
+            "context": "les in life Those reasons may consist of mental disorders and environmental problems of which heshe may have committed the crime Gathering information from their background and getting familiar with the priso",
+            "reason": "Pattern-based detection",
+            "pattern": "\\bmay\\s+(?:be|have|suggest|indicate)\\b"
+          }
+        ]
+      },
+      "text_preview": "  Human beings born free that is all people have equal right to freedom But it does not mean that we can do whatever we want In fact we live together in communities along with all those differences we..."
+    }
+  },
+  "validation_details": [
+    {
+      "marker": "definitely is",
+      "category": "interactional_boosters",
+      "confidence": 0.7,
+      "is_valid": false,
+      "reason": "",
+      "context_snippet": "  \tnowadays university deegrees become the target of students life higher education definitely is a ..."
+    },
+    {
+      "marker": "consider that",
+      "category": "interactional_engagement_markers",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid reader directive",
+      "context_snippet": "rsonality\ton the other hand not all students view having a degree as a necessity most of the people ..."
+    },
+    {
+      "marker": "according to them",
+      "category": "interactive_evidentials",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid source attribution",
+      "context_snippet": "during the years of the learning its the first and the most important stepping stone toward success ..."
+    },
+    {
+      "marker": "according to them",
+      "category": "interactive_evidentials",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid source attribution",
+      "context_snippet": "cessity most of the people consider that it is possible to be successful without postgraduate study ..."
+    },
+    {
+      "marker": "seem to have",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": false,
+      "reason": "",
+      "context_snippet": "n the workplace and establishing more autonomous female individuals in the society today main goals ..."
+    },
+    {
+      "marker": "seems to be",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid epistemic verb",
+      "context_snippet": " mainly based on the negative connotation the word has interestingly the only point of disagreement ..."
+    },
+    {
+      "marker": "seems to be",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid epistemic verb",
+      "context_snippet": " the heated discussions over the necessity of feminism will remain popular in the near future there ..."
+    },
+    {
+      "marker": "consider the",
+      "category": "interactional_engagement_markers",
+      "confidence": 0.7,
+      "is_valid": false,
+      "reason": "",
+      "context_snippet": "tive connotation the word has interestingly the only point of disagreement seems to be whether they ..."
+    },
+    {
+      "marker": "must be",
+      "category": "interactional_boosters",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid strong modal",
+      "context_snippet": "g are you using who are the followers of humanism whats the difference between cll and clt students ..."
+    },
+    {
+      "marker": "i believe",
+      "category": "interactional_self_mentions",
+      "confidence": 0.8,
+      "is_valid": true,
+      "reason": "Valid academic self-mention",
+      "context_snippet": "al class at universities theory without usage is meaningless and purposelessto put it in a nutshell ..."
+    },
+    {
+      "marker": "could be",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid epistemic hedge",
+      "context_snippet": "er punishment or treatment  incarceration is a shortterm solution for many offenders rehabilitation ..."
+    },
+    {
+      "marker": "seems to be",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid epistemic verb",
+      "context_snippet": "cts as an effective deterrent against committing crimes as to the second justification imprisonment ..."
+    },
+    {
+      "marker": "seems to be",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid epistemic verb",
+      "context_snippet": "o say that rehabilitation may help prevent crime in the society to some extent however imprisonment ..."
+    },
+    {
+      "marker": "in order to punish",
+      "category": "interactive_frame_markers",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid goal marker",
+      "context_snippet": "g right education can deter criminal activities  the common belief about prisons is that they exist ..."
+    },
+    {
+      "marker": "in order to stop",
+      "category": "interactive_frame_markers",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid goal marker",
+      "context_snippet": "terrent against committing crimes as to the second justification imprisonment seems to be necessary ..."
+    },
+    {
+      "marker": "might be",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": true,
+      "reason": "Valid epistemic hedge",
+      "context_snippet": " way of living and lifestyles with this and by finding out what was their problem simultaneously we ..."
+    },
+    {
+      "marker": "may have",
+      "category": "interactional_hedges",
+      "confidence": 0.7,
+      "is_valid": false,
+      "reason": "Auxiliary use, not hedging",
+      "context_snippet": "les in life those reasons may consist of mental disorders and environmental problems of which heshe ..."
+    }
+  ],
+  "timestamp": "20250701_004609"
+}

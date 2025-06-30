@@ -1,0 +1,1017 @@
+{
+  "analysis": {
+    "doc_index": 20,
+    "text": "  In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell ",
+    "l1": "Turkish",
+    "word_count": 604,
+    "detected_markers": {},
+    "filtered_markers": {
+      "interactional_self_mentions": [
+        {
+          "text": "we",
+          "start": 35,
+          "end": 36,
+          "subcategory": "basic",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "crime In Turkey",
+            "right_context": "have death penalty",
+            "pos_tags": [
+              "PRON"
+            ],
+            "dependencies": [
+              "nsubj"
+            ],
+            "sentence_position": 0.05747126436781609
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "i",
+          "start": 103,
+          "end": 104,
+          "subcategory": "basic",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "kill the guilty",
+            "right_context": "think the reason",
+            "pos_tags": [
+              "PRON"
+            ],
+            "dependencies": [
+              "nsubj"
+            ],
+            "sentence_position": 0.16912972085385877
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "i think",
+          "start": 103,
+          "end": 105,
+          "subcategory": "stance",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "kill the guilty",
+            "right_context": "the reason why",
+            "pos_tags": [
+              "PRON",
+              "VERB"
+            ],
+            "dependencies": [
+              "nsubj",
+              "conj"
+            ],
+            "sentence_position": 0.16912972085385877
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "my",
+          "start": 163,
+          "end": 164,
+          "subcategory": "basic",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "his crime In",
+            "right_context": "opinion nobody has",
+            "pos_tags": [
+              "PRON"
+            ],
+            "dependencies": [
+              "poss"
+            ],
+            "sentence_position": 0.2676518883415435
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "we",
+          "start": 450,
+          "end": 451,
+          "subcategory": "basic",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "and conscience part",
+            "right_context": "all know that",
+            "pos_tags": [
+              "PRON"
+            ],
+            "dependencies": [
+              "nsubj"
+            ],
+            "sentence_position": 0.7389162561576355
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "we",
+          "start": 454,
+          "end": 455,
+          "subcategory": "basic",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "all know that",
+            "right_context": "are created by",
+            "pos_tags": [
+              "PRON"
+            ],
+            "dependencies": [
+              "nsubjpass"
+            ],
+            "sentence_position": 0.7454844006568144
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "we",
+          "start": 460,
+          "end": 461,
+          "subcategory": "basic",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "by god and",
+            "right_context": "believe god None",
+            "pos_tags": [
+              "PRON"
+            ],
+            "dependencies": [
+              "nsubj"
+            ],
+            "sentence_position": 0.7553366174055829
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        }
+      ],
+      "interactional_hedges": [
+        {
+          "text": "think",
+          "start": 104,
+          "end": 105,
+          "subcategory": "tentative",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "the guilty I",
+            "right_context": "the reason why",
+            "pos_tags": [
+              "VERB"
+            ],
+            "dependencies": [
+              "conj"
+            ],
+            "sentence_position": 0.17077175697865354
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "would",
+          "start": 128,
+          "end": 129,
+          "subcategory": "modal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "the people what",
+            "right_context": "be them when",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.21018062397372742
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "may",
+          "start": 149,
+          "end": 150,
+          "subcategory": "modal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "hand the people",
+            "right_context": "thing that who",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.24466338259441708
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "in my opinion",
+          "start": 162,
+          "end": 165,
+          "subcategory": "personal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "of his crime",
+            "right_context": "nobody has right",
+            "pos_tags": [
+              "ADP",
+              "PRON",
+              "NOUN"
+            ],
+            "dependencies": [
+              "prep",
+              "poss",
+              "pobj"
+            ],
+            "sentence_position": 0.2660098522167488
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "may",
+          "start": 222,
+          "end": 223,
+          "subcategory": "modal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "hearth so him",
+            "right_context": "feel himself in",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.3645320197044335
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "may",
+          "start": 291,
+          "end": 292,
+          "subcategory": "modal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "main problem It",
+            "right_context": "cause to decrease",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.47783251231527096
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "maybe",
+          "start": 366,
+          "end": 367,
+          "subcategory": "modal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "and their rules",
+            "right_context": "thats why",
+            "pos_tags": [
+              "ADV"
+            ],
+            "dependencies": [
+              "advmod"
+            ],
+            "sentence_position": 0.6009852216748769
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "may",
+          "start": 421,
+          "end": 422,
+          "subcategory": "modal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "warned then they",
+            "right_context": "apply some punishment",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.6912972085385879
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "believe",
+          "start": 461,
+          "end": 462,
+          "subcategory": "tentative",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "god and we",
+            "right_context": "god None of",
+            "pos_tags": [
+              "VERB"
+            ],
+            "dependencies": [
+              "conj"
+            ],
+            "sentence_position": 0.7569786535303776
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        }
+      ],
+      "interactive_transitions": [
+        {
+          "text": "on the other hand",
+          "start": 143,
+          "end": 147,
+          "subcategory": "adversative",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "warn the people",
+            "right_context": "the people may",
+            "pos_tags": [
+              "ADP",
+              "DET",
+              "ADJ",
+              "NOUN"
+            ],
+            "dependencies": [
+              "prep",
+              "det",
+              "amod",
+              "pobj"
+            ],
+            "sentence_position": 0.2348111658456486
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "because",
+          "start": 158,
+          "end": 159,
+          "subcategory": "causal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "to kill someone",
+            "right_context": "of his crime",
+            "pos_tags": [
+              "SCONJ"
+            ],
+            "dependencies": [
+              "prep"
+            ],
+            "sentence_position": 0.2594417077175698
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "but",
+          "start": 180,
+          "end": 181,
+          "subcategory": "adversative",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "he is guilty",
+            "right_context": "when the government",
+            "pos_tags": [
+              "CCONJ"
+            ],
+            "dependencies": [
+              "cc"
+            ],
+            "sentence_position": 0.2955665024630542
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "so",
+          "start": 220,
+          "end": 221,
+          "subcategory": "causal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "brain and hearth",
+            "right_context": "him may feel",
+            "pos_tags": [
+              "SCONJ"
+            ],
+            "dependencies": [
+              "mark"
+            ],
+            "sentence_position": 0.361247947454844
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "in spite of",
+          "start": 227,
+          "end": 230,
+          "subcategory": "adversative",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "himself in trouble",
+            "right_context": "punishing the guilty",
+            "pos_tags": [
+              "ADP",
+              "NOUN",
+              "ADP"
+            ],
+            "dependencies": [
+              "prep",
+              "pobj",
+              "prep"
+            ],
+            "sentence_position": 0.3727422003284072
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "because",
+          "start": 251,
+          "end": 252,
+          "subcategory": "causal",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "kind of problems",
+            "right_context": "of this problems",
+            "pos_tags": [
+              "SCONJ"
+            ],
+            "dependencies": [
+              "prep"
+            ],
+            "sentence_position": 0.4121510673234811
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "also",
+          "start": 316,
+          "end": 317,
+          "subcategory": "additive",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "guilty The government",
+            "right_context": "announces to the",
+            "pos_tags": [
+              "ADV"
+            ],
+            "dependencies": [
+              "advmod"
+            ],
+            "sentence_position": 0.5188834154351396
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "but",
+          "start": 353,
+          "end": 354,
+          "subcategory": "adversative",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "they only watch",
+            "right_context": "what they can",
+            "pos_tags": [
+              "CCONJ"
+            ],
+            "dependencies": [
+              "cc"
+            ],
+            "sentence_position": 0.5796387520525451
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "besides",
+          "start": 381,
+          "end": 382,
+          "subcategory": "additive",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "undeveloped and uncivilized",
+            "right_context": "that the developed",
+            "pos_tags": [
+              "SCONJ"
+            ],
+            "dependencies": [
+              "prep"
+            ],
+            "sentence_position": 0.625615763546798
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "but",
+          "start": 425,
+          "end": 426,
+          "subcategory": "adversative",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "apply some punishment",
+            "right_context": "its not death",
+            "pos_tags": [
+              "CCONJ"
+            ],
+            "dependencies": [
+              "cc"
+            ],
+            "sentence_position": 0.6978653530377669
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        }
+      ],
+      "unknown_category": [
+        {
+          "text": "then",
+          "start": 277,
+          "end": 278,
+          "subcategory": "temporal",
+          "confidence": 0.48,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "this problem and",
+            "right_context": "according to the",
+            "pos_tags": [
+              "ADV"
+            ],
+            "dependencies": [
+              "advmod"
+            ],
+            "sentence_position": 0.4548440065681445
+          },
+          "adjusted_confidence": 0.528,
+          "precision_filtered": true
+        },
+        {
+          "text": "then",
+          "start": 419,
+          "end": 420,
+          "subcategory": "temporal",
+          "confidence": 0.48,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "are first warned",
+            "right_context": "they may apply",
+            "pos_tags": [
+              "ADV"
+            ],
+            "dependencies": [
+              "advmod"
+            ],
+            "sentence_position": 0.6880131362889984
+          },
+          "adjusted_confidence": 0.528,
+          "precision_filtered": true
+        }
+      ],
+      "interactional_boosters": [
+        {
+          "text": "find",
+          "start": 270,
+          "end": 271,
+          "subcategory": "demonstration",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "government is to",
+            "right_context": "the solution of",
+            "pos_tags": [
+              "VERB"
+            ],
+            "dependencies": [
+              "xcomp"
+            ],
+            "sentence_position": 0.4433497536945813
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "will",
+          "start": 561,
+          "end": 562,
+          "subcategory": "emphasis",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "In hell we",
+            "right_context": "burn and in",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.9211822660098522
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "will",
+          "start": 568,
+          "end": 569,
+          "subcategory": "emphasis",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "the heaven we",
+            "right_context": "live in wonderful",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.9326765188834154
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "will",
+          "start": 601,
+          "end": 602,
+          "subcategory": "emphasis",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "who kill someone",
+            "right_context": "be punished by",
+            "pos_tags": [
+              "AUX"
+            ],
+            "dependencies": [
+              "aux"
+            ],
+            "sentence_position": 0.986863711001642
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        }
+      ],
+      "interactive_evidentials": [
+        {
+          "text": "according to",
+          "start": 278,
+          "end": 280,
+          "subcategory": "attribution",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "problem and then",
+            "right_context": "the founded solutions",
+            "pos_tags": [
+              "VERB",
+              "ADP"
+            ],
+            "dependencies": [
+              "prep",
+              "prep"
+            ],
+            "sentence_position": 0.45648604269293924
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        },
+        {
+          "text": "according to",
+          "start": 393,
+          "end": 395,
+          "subcategory": "attribution",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "have human rights",
+            "right_context": "them everybody has",
+            "pos_tags": [
+              "VERB",
+              "ADP"
+            ],
+            "dependencies": [
+              "prep",
+              "prep"
+            ],
+            "sentence_position": 0.645320197044335
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        }
+      ],
+      "interactive_frame_markers": [
+        {
+          "text": "first",
+          "start": 417,
+          "end": 418,
+          "subcategory": "sequencing",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "right they are",
+            "right_context": "warned then they",
+            "pos_tags": [
+              "ADV"
+            ],
+            "dependencies": [
+              "advmod"
+            ],
+            "sentence_position": 0.6847290640394089
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        }
+      ],
+      "interactional_engagement_markers": [
+        {
+          "text": "one",
+          "start": 580,
+          "end": 581,
+          "subcategory": "reader_reference",
+          "confidence": 0.9,
+          "context": {
+            "sentence": "In the world most of the countries have death penalty especially the countries which are in the east The countries which are in the west dont apply this punishment for a crime In Turkey we have death penalty When a person made something illegal which are spying killing someone trying to separate their countries the government have rights to use capital punishment the government punishes the guilty who is punished with death penalty by the government Instead of applying this punishment the government put the guilty in jail until die as a punishment The government dont hang or kill the guilty I think the reason why there is death penalty the people who lived at the past wanted to teach the rest of the people what would be them when they do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when someone kills somebody he is guilty but when the government apply this punishment its not a guilt It means that its unjustice If a human being has a brain and hearth he cant accept this punishment The fact that a person has brain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should research the reason why the people commit a crime Everybody has some kind of problems because of this problems the people commit a crime At this point the role of the government is to find the solution of this problem and then according to the founded solutions the government should solve the main problem It may cause to decrease the crime rate In the undeveloped uncivilized countries especially in the east apply death penalty to punish the guilty The government also announces to the public to invite them to watch the guilty while he hangs on They meet together and the guilty is hanged in front of the public None of them say something they only watch But what they can do Its related with their government and their rules Maybe thats why all the people in the world call them undeveloped and uncivilized Besides that the developed civilized government in the west have human rights According to them everybody has right to live Nobody can interfere the others right If a man attracts to interfere someones right they are first warned then they may apply some punishment But its not death penalty At the same time there is another factor that death penalty is unacceptable which is the religious and conscience part We all know that we are created by god and we believe god None of us can deny this truth Therefore nobody can judge someone because of its crime by themselves by hanging or killing them There is no human being in the world as right to punish the people by giving capital punishment God gives us this life and only god can take our life whenever he wants There is nobody much more powerful than god and god doesnt give mission to punish his creation In addition we all afraid of god and all religious books say there is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful world If its like this I think no one can wants go hell To some up god gives this life and only god takes again Anyone who kill someone will be punished by god in the hell",
+            "left_context": "I think no",
+            "right_context": "can wants go",
+            "pos_tags": [
+              "NOUN"
+            ],
+            "dependencies": [
+              "nsubj"
+            ],
+            "sentence_position": 0.9523809523809523
+          },
+          "adjusted_confidence": 0.9900000000000001,
+          "precision_filtered": true
+        }
+      ]
+    },
+    "total_markers": 36,
+    "density": 59.602649006622514
+  },
+  "validation_results": {
+    "total_samples": 25,
+    "valid_markers": 4,
+    "false_positives": 21,
+    "uncertain": 0,
+    "precision": 0.16,
+    "validation_details": [
+      {
+        "category": "interactional_self_mentions",
+        "marker": "we",
+        "confidence": 0.9,
+        "context": "ch are in the east The countries which are in the west dont apply this punishment for a crime In Turke",
+        "manual_validation": "FALSE_POSITIVE",
+        "reason": "Common function word or too short"
+      },
+      {
+        "category": "interactional_self_mentions",
+        "marker": "i",
+        "confidence": 0.9,
+        "context": "  In the world most of the countries have death penal",
+        "manual_validation": "FALSE_POSITIVE",
+        "reason": "Common function word or too short"
+      },
+      {
+        "category": "interactional_self_mentions",
+        "marker": "i think",
+        "confidence": 0.9,
+        "context": "hment The government dont hang or kill the guilty I think the reason why there is death penalty the people ",
+        "manual_validation": "VALID",
+        "reason": "Potential attitude/stance marker"
+      },
+      {
+        "category": "interactional_self_mentions",
+        "marker": "my",
+        "confidence": 0.9,
+        "context": "has right to kill someone because of his crime In my opinion nobody has right Killing someone is a cri",
+        "manual_validation": "FALSE_POSITIVE",
+        "reason": "Common function word or too short"
+      },
+      {
+        "category": "interactional_self_mentions",
+        "marker": "we",
+        "confidence": 0.9,
+        "context": "ch are in the east The countries which are in the west dont apply this punishment for a crime In Turke",
+        "manual_validation": "FALSE_POSITIVE",
+        "reason": "Common function word or too short"
+      },
+      {
+        "category": "interactional_hedges",
+        "marker": "think",
+        "confidence": 0.9,
+        "context": "ent The government dont hang or kill the guilty I think the reason why there is death penalty the people ",
+        "manual_validation": "VALID",
+        "reason": "Potential attitude/stance marker"
+      },
+      {
+        "category": "interactional_hedges",
+        "marker": "would",
+        "confidence": 0.9,
+        "context": " past wanted to teach the rest of the people what would be them when they do the same crime They wanted t",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactional_hedges",
+        "marker": "may",
+        "confidence": 0.9,
+        "context": "d to warn the people On the other hand the people may thing that who has right to kill someone because ",
+        "manual_validation": "VALID",
+        "reason": "Clear hedging marker"
+      },
+      {
+        "category": "interactional_hedges",
+        "marker": "in my opinion",
+        "confidence": 0.9,
+        "context": "ho has right to kill someone because of his crime In my opinion nobody has right Killing someone is a crime when ",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactional_hedges",
+        "marker": "may",
+        "confidence": 0.9,
+        "context": "d to warn the people On the other hand the people may thing that who has right to kill someone because ",
+        "manual_validation": "VALID",
+        "reason": "Clear hedging marker"
+      },
+      {
+        "category": "interactive_transitions",
+        "marker": "on the other hand",
+        "confidence": 0.9,
+        "context": " do the same crime They wanted to warn the people On the other hand the people may thing that who has right to kill s",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactive_transitions",
+        "marker": "because",
+        "confidence": 0.9,
+        "context": "ople may thing that who has right to kill someone because of his crime In my opinion nobody has right Killi",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactive_transitions",
+        "marker": "but",
+        "confidence": 0.9,
+        "context": " a crime when someone kills somebody he is guilty but when the government apply this punishment its not",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactive_transitions",
+        "marker": "so",
+        "confidence": 0.9,
+        "context": "a crime In Turkey we have death penalty When a person made something illegal which are spying killing ",
+        "manual_validation": "FALSE_POSITIVE",
+        "reason": "Common function word or too short"
+      },
+      {
+        "category": "interactive_transitions",
+        "marker": "in spite of",
+        "confidence": 0.9,
+        "context": "ain and hearth so him may feel himself in trouble In spite of punishing the guilty the government should resear",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "unknown_category",
+        "marker": "then",
+        "confidence": 0.48,
+        "context": "nment is to find the solution of this problem and then according to the founded solutions the government",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "unknown_category",
+        "marker": "then",
+        "confidence": 0.48,
+        "context": "nment is to find the solution of this problem and then according to the founded solutions the government",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactional_boosters",
+        "marker": "find",
+        "confidence": 0.9,
+        "context": "me At this point the role of the government is to find the solution of this problem and then according t",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactional_boosters",
+        "marker": "will",
+        "confidence": 0.9,
+        "context": " is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful ",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactional_boosters",
+        "marker": "will",
+        "confidence": 0.9,
+        "context": " is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful ",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactional_boosters",
+        "marker": "will",
+        "confidence": 0.9,
+        "context": " is hell and heaven in the other world In hell we will burn and in the heaven we will live in wonderful ",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactive_evidentials",
+        "marker": "according to",
+        "confidence": 0.9,
+        "context": " is to find the solution of this problem and then according to the founded solutions the government should solve",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactive_evidentials",
+        "marker": "according to",
+        "confidence": 0.9,
+        "context": " is to find the solution of this problem and then according to the founded solutions the government should solve",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactive_frame_markers",
+        "marker": "first",
+        "confidence": 0.9,
+        "context": "man attracts to interfere someones right they are first warned then they may apply some punishment But it",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      },
+      {
+        "category": "interactional_engagement_markers",
+        "marker": "one",
+        "confidence": 0.9,
+        "context": "de something illegal which are spying killing someone trying to separate their countries the government",
+        "manual_validation": "UNCERTAIN",
+        "reason": "Requires deeper context analysis"
+      }
+    ]
+  },
+  "precision_estimate": 0.16,
+  "grade": "F (POOR)",
+  "timestamp": "20250701_004046"
+}

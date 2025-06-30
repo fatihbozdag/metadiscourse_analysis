@@ -33,8 +33,8 @@ Thumbs.db
 
 # Analysis results
 analysis_results/
-results/
-*.csv
+# results/
+# *.csv
 *.pdf
 *.png
 *.tex
