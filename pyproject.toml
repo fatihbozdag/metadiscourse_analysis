@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metalinguistics"
+version = "0.1.0"
+description = "Advanced Metadiscourse Analysis Library using NLP and Machine Learning"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Fatih Bozdag"},
+]
+keywords = ["nlp", "metadiscourse", "linguistics", "academic-writing", "machine-learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "spacy>=3.7.0",
+    "spacy-transformers>=1.3.0",
+    "scikit-learn>=1.3.0",
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    "pyyaml>=6.0",
+    "joblib>=1.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=21.0",
+    "flake8>=3.8",
+    "mypy>=0.800",
+]
+docs = [
+    "sphinx>=4.0",
+    "sphinx-rtd-theme>=0.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/metalinguistics"
+Documentation = "https://metalinguistics.readthedocs.io/"
+Repository = "https://github.com/yourusername/metalinguistics.git"
+"Bug Tracker" = "https://github.com/yourusername/metalinguistics/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+metalinguistics = ["config/**/*.json", "config/**/*.yaml"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

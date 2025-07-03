@@ -1,40 +1,85 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
-dist/
+*.so
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environment
+# Virtual environments
 .env
 .venv
 env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 
-# spaCy models
-.spacy
-
-# IDE specific files
-.idea/
+# IDE
 .vscode/
+.idea/
 *.swp
 *.swo
+*~
 
-# OS specific files
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data files (large datasets)
+data/raw/*.csv
+data/processed/synthetic_metadiscourse_dataset.csv
+*.csv
+
+# Model files (large binary files)
+models/**/*.joblib
+*.joblib
+*.pkl
+*.pickle
+
+# Results and outputs
+results/**/*
+*.json
+!config/**/*.json  # Keep config JSON files
+!**/package*.json  # Keep package files
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Analysis results
-analysis_results/
-# results/
-# *.csv
-*.pdf
-*.png
-*.tex
+# Research artifacts
+accuracy_report_*.json
+extraction_accuracy_*.json
+pattern_test_report_*.json
+*_results.json
+test_report.json
+
+# Documentation builds
+docs/_build/
+site/

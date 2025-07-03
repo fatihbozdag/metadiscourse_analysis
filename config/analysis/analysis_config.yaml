@@ -1,0 +1,24 @@
+analysis_modes:
+  default:
+    confidence_threshold: 0.6
+    enable_calibration: true
+    enable_deduplication: true
+    use_ml: true
+  exploratory:
+    confidence_threshold: 0.2
+    enable_calibration: true
+    enable_deduplication: false
+    use_ml: true
+  high_precision:
+    confidence_threshold: 0.8
+    enable_calibration: false
+    enable_deduplication: true
+    use_ml: true
+export_options:
+  include_confidence: true
+  include_context: true
+  include_features: false
+output_formats:
+- json
+- csv
+- html
