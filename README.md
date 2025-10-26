@@ -1,4 +1,4 @@
-# 🔬 Metalinguistics: Advanced Metadiscourse Analysis Library
+# Metalinguistics: Advanced Metadiscourse Analysis Library
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,21 +6,21 @@
 
 A state-of-the-art Python library for detecting and analyzing metadiscourse markers in academic texts using transformer models and machine learning.
 
-## 🚀 Overview
+## Overview
 
 **Metalinguistics** provides sophisticated tools for metadiscourse analysis in academic writing. It combines **transformer-based NLP** (RoBERTa), **machine learning classification**, and **linguistic feature engineering** to achieve high accuracy in detecting and categorizing metadiscourse markers.
 
 ### Key Features
 
-- 🧠 **Transformer-based NLP**: Uses `en_core_web_trf` (RoBERTa) for deep linguistic understanding
-- 🎯 **ML Classification**: Random Forest classifier with 20+ linguistic features
-- 📊 **Eight Category Detection**: Comprehensive coverage of Hyland's metadiscourse framework
-- 🔍 **Context-Aware**: Distinguishes academic from conversational usage patterns
-- ⚙️ **Highly Configurable**: External JSON/YAML configuration for easy customization
-- 🧪 **Well-Tested**: Comprehensive validation with 90.8% accuracy
-- 📦 **Easy Integration**: Simple API for batch processing and corpus analysis
+- **Transformer-based NLP**: Uses `en_core_web_trf` (RoBERTa) for deep linguistic understanding
+- **ML Classification**: Random Forest classifier with 20+ linguistic features
+- **Eight Category Detection**: Comprehensive coverage of Hyland's metadiscourse framework
+- **Context-Aware**: Distinguishes academic from conversational usage patterns
+- **Highly Configurable**: External JSON/YAML configuration for easy customization
+- **Well-Tested**: Comprehensive validation with 90.8% accuracy
+- **Easy Integration**: Simple API for batch processing and corpus analysis
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -43,7 +43,7 @@ python -m spacy download en_core_web_trf
 
 > **Note**: The transformer model (`en_core_web_trf`) is ~560MB. For lighter installations, see [Alternative Models](#alternative-models).
 
-## 🎯 Quick Start
+## Quick Start
 
 > **Note**: This library works in two modes:
 > - **Full mode** (recommended): Requires a trained ML model for highest accuracy (90.8%)
@@ -82,7 +82,7 @@ Found 5 metadiscourse markers
   'show' (evidentials) - confidence: 0.83
 ```
 
-## 📊 Metadiscourse Categories
+## Metadiscourse Categories
 
 The library detects **eight metadiscourse categories** based on Hyland's (2005) framework:
 
@@ -97,7 +97,7 @@ The library detects **eight metadiscourse categories** based on Hyland's (2005) 
 | **Boosters** | Certainty markers | clearly, obviously, definitely |
 | **Hedges** | Cautious phrasing | might, possibly, seem |
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 metalinguistics/
@@ -130,7 +130,7 @@ metalinguistics/
     └── basic_usage.py
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Custom Configuration
 
@@ -211,7 +211,7 @@ analyzer = EnhancedMetadiscourseAnalyzer(
 
 > **Note**: Training requires a labeled dataset of metadiscourse markers. The library does not include pre-annotated training data due to copyright restrictions.
 
-## 📈 Performance
+## Performance
 
 ### Validation Results (with trained ML model)
 - **True Positive Rate**: 89.6%
@@ -239,7 +239,7 @@ python -m spacy download en_core_web_md  # 40MB
 
 Note: Accuracy may decrease with smaller models.
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive test suite:
 
@@ -254,13 +254,13 @@ python tests/test_comprehensive.py
 python -m pytest --cov=src/metalinguistics tests/
 ```
 
-## 📚 Documentation
+## Documentation
 
 - **API Reference**: See module docstrings and `docs/api/`
 - **Configuration Guide**: `config/README.md`
 - **Examples**: `examples/`
 
-## 🛠️ Development
+## Development
 
 ### Setup Development Environment
 
@@ -294,7 +294,7 @@ Contributions are welcome! Please:
 5. Format code (`black src/ tests/`)
 6. Submit a Pull Request
 
-## 📋 Requirements
+## Requirements
 
 Core dependencies:
 - `spacy >= 3.0.0`
@@ -305,7 +305,7 @@ Core dependencies:
 
 See `requirements.txt` for complete list.
 
-## 🏆 Research Applications
+## Research Applications
 
 This library is designed for:
 - **Corpus Linguistics**: Large-scale metadiscourse pattern analysis
@@ -314,11 +314,11 @@ This library is designed for:
 - **Educational Technology**: Intelligent tutoring systems
 - **Comparative Rhetoric**: Cross-cultural discourse analysis
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🎓 Citation
+## Citation
 
 If you use this library in your research, please cite:
 
@@ -332,12 +332,12 @@ If you use this library in your research, please cite:
 }
 ```
 
-## 📧 Contact & Support
+## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/fatihbozdag/metadiscourse_analysis/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/fatihbozdag/metadiscourse_analysis/discussions)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This library implements metadiscourse detection based on:
 - Hyland, K. (2005). *Metadiscourse: Exploring Interaction in Writing*. Continuum.
