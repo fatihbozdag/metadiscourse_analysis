@@ -3,6 +3,7 @@ import spacy
 from spacy import cli
 import numpy as np
 from typing import Dict, List, Tuple, Optional
+import argparse
 
 # Assuming MetadiscourseAnalyzer is in precision_analyzer.py
 # For simplicity, I'll include a simplified version here for feature extraction
@@ -115,8 +116,29 @@ class SimplifiedMetadiscourseAnalyzer:
         return features
 
 def main():
-    input_csv = "synthetic_metadiscourse_dataset.csv"
-    output_csv = "features_and_labels.csv"
+    # ------------------------------------------------------------------
+    # CLI – allow caller to override input / output paths
+    # ------------------------------------------------------------------
+    parser = argparse.ArgumentParser(
+        description="Extract engineered features & labels for the metadiscourse ML pipeline."
+    )
+    parser.add_argument(
+        "--input",
+        "-i",
+        default="synthetic_metadiscourse_dataset.csv",
+        help="Path to the raw synthetic dataset CSV (default: synthetic_metadiscourse_dataset.csv)",
+    )
+    parser.add_argument(
+        "--output",
+        "-o",
+        default="features_and_labels.csv",
+        help="Where to write the extracted feature table (default: features_and_labels.csv)",
+    )
+
+    args = parser.parse_args()
+
+    input_csv = args.input
+    output_csv = args.output
 
     try:
         df = pd.read_csv(input_csv)

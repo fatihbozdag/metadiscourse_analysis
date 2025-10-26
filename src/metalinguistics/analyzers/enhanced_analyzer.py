@@ -31,7 +31,7 @@ class EnhancedMetadiscourseAnalyzer:
     Enhanced analyzer combining rule-based patterns with ML classification
     """
     
-    def __init__(self, model_path: str = "metadiscourse_model_balanced_5k.joblib"):
+    def __init__(self, model_path: str = "models/production/metadiscourse_model_balanced_5k.joblib"):
         """
         Initialize enhanced analyzer
         

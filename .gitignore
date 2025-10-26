@@ -31,6 +31,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.python-version
 
 # IDE
 .vscode/
@@ -38,26 +39,67 @@ venv.bak/
 *.swp
 *.swo
 *~
+.claude/
 
 # Jupyter Notebooks
 .ipynb_checkpoints
 
-# Data files (large datasets)
-data/raw/*.csv
-data/processed/synthetic_metadiscourse_dataset.csv
+# Data files - CORPUS DATA (do not distribute)
+LOCNESS/
+TICLE_RESULTS/
+LOCNESS_RESULTS/
+New_RESULTS/
+data/
 *.csv
+!config/**/*.csv  # Keep small config CSVs if any
 
-# Model files (large binary files)
-models/**/*.joblib
+# Model files (large binary files - download separately)
+models/production/*.joblib
+models/experimental/*.joblib
 *.joblib
 *.pkl
 *.pickle
+combined_training_data.csv
 
 # Results and outputs
-results/**/*
+results/analyses/
+results/validation/
+results/reports/
 *.json
 !config/**/*.json  # Keep config JSON files
 !**/package*.json  # Keep package files
+!pyproject.toml
+!setup.py
+
+# Research development notes (internal only)
+thingstodo.md
+PROJECT_REORGANIZATION_SUMMARY.md
+FINAL_PROJECT_SUMMARY.md
+IMPROVEMENT_SUMMARY.md
+SYSTEM_IMPLEMENTATION_SUMMARY.md
+accuracy_improvement_plan.md
+MARKER_RESULTS_SUMMARY.md
+
+# Validation and test outputs
+accuracy_report_*.json
+extraction_accuracy_*.json
+pattern_test_report_*.json
+*_results.json
+test_report.json
+real_corpus_test.json
+
+# Analysis scripts output
+full_corpus_analysis.py
+precision_analyzer.py
+
+# Corpus-specific analysis scripts (internal research)
+scripts/analyze_locness_corpus.py
+scripts/analyze_ticle_corpus.py
+scripts/fast_ticle_analysis.py
+scripts/optimized_ml_ticle_analysis.py
+scripts/prepare_ticle_reporting.py
+scripts/rule_based_ticle_analysis.py
+scripts/visualize_ticle_results.py
 
 # Temporary files
 *.tmp
@@ -73,13 +115,9 @@ results/**/*
 ehthumbs.db
 Thumbs.db
 
-# Research artifacts
-accuracy_report_*.json
-extraction_accuracy_*.json
-pattern_test_report_*.json
-*_results.json
-test_report.json
-
 # Documentation builds
 docs/_build/
 site/
+
+# uv lock file (Python package manager)
+uv.lock

@@ -2,12 +2,35 @@
 Train ML classifier on optimized subset of dataset for faster training
 """
 
+import os
+import subprocess
 import pandas as pd
-from ml_metadiscourse_classifier import MetadiscourseClassifier
+
+# Ensure we can import the library without having to modify PYTHONPATH
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+
+from metalinguistics.ml.classifier import MetadiscourseClassifier
+
+# ---------------------------------------------------------------------
+# Auto-generate synthetic dataset if it is not already on disk
+# ---------------------------------------------------------------------
+DATA_PATH = 'synthetic_metadiscourse_dataset.csv'
+
+if not os.path.exists(DATA_PATH):
+    print("Synthetic dataset not found – generating it now …")
+    # Run the generator script located in the same folder
+    subprocess.run([
+        'python',
+        os.path.join('scripts', 'generate_synthetic_dataset.py'),
+        '--size', '5000',
+        '--output', DATA_PATH
+    ], check=True)
+    print("Synthetic dataset successfully generated!\n")
 
 def main():
     print("Loading synthetic metadiscourse dataset...")
-    df = pd.read_csv('synthetic_metadiscourse_dataset.csv')
+    df = pd.read_csv(DATA_PATH)
     
     print(f"Full dataset shape: {df.shape}")
     
