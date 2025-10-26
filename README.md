@@ -45,10 +45,16 @@ python -m spacy download en_core_web_trf
 
 ## 🎯 Quick Start
 
+> **Note**: This library works in two modes:
+> - **Full mode** (recommended): Requires a trained ML model for highest accuracy (90.8%)
+> - **Pattern-based mode** (fallback): Works without ML model, using rule-based detection only
+>
+> For first-time users, the system will automatically use pattern-based mode. To train an ML model, see [Training Custom Models](#training-custom-models).
+
 ```python
 from metalinguistics.analyzers import EnhancedMetadiscourseAnalyzer
 
-# Initialize analyzer
+# Initialize analyzer (works with or without trained model)
 analyzer = EnhancedMetadiscourseAnalyzer()
 
 # Analyze academic text
@@ -112,9 +118,9 @@ metalinguistics/
 │   ├── patterns/               # Detection patterns
 │   ├── models/                 # Model configs
 │   └── analysis/               # Analysis settings
-├── models/                     # Trained models (download separately)
-│   ├── production/
-│   └── experimental/
+├── models/                     # Trained models (train locally or use pre-trained)
+│   ├── production/             # Production-ready models
+│   └── experimental/           # Experimental models
 ├── scripts/                    # Utility scripts
 │   ├── train_model.py
 │   └── analyze_corpus.py
@@ -170,15 +176,23 @@ results_df.to_csv('analysis_results.csv', index=False)
 
 ### Training Custom Models
 
+To achieve the full 90.8% accuracy, you need to train an ML model on annotated data. The library includes training scripts in the `scripts/` directory.
+
+**Option 1: Use provided training script**
+```bash
+python scripts/train_optimized_model.py
+```
+
+**Option 2: Train programmatically**
 ```python
 from metalinguistics.ml import MetadiscourseClassifier
 import pandas as pd
 
-# Prepare training data
+# Prepare training data (annotated metadiscourse markers)
 training_df = pd.DataFrame({
     'text': [...],           # Full sentences
     'marker_text': [...],    # Candidate markers
-    'is_metadiscourse': [...],  # True/False labels
+    'is_metadiscourse': [...],  # True/False labels (manually annotated)
     'category': [...]        # Category labels
 })
 
@@ -186,17 +200,26 @@ training_df = pd.DataFrame({
 classifier = MetadiscourseClassifier(model_type='random_forest')
 results = classifier.train(training_df, test_size=0.2)
 
-# Save model
-classifier.save_model('models/my_custom_model.joblib')
+# Save model for production use
+classifier.save_model('models/production/metadiscourse_model_balanced_5k.joblib')
+
+# Use the trained model
+analyzer = EnhancedMetadiscourseAnalyzer(
+    model_path='models/production/metadiscourse_model_balanced_5k.joblib'
+)
 ```
+
+> **Note**: Training requires a labeled dataset of metadiscourse markers. The library does not include pre-annotated training data due to copyright restrictions.
 
 ## 📈 Performance
 
-### Validation Results
+### Validation Results (with trained ML model)
 - **True Positive Rate**: 89.6%
 - **False Positive Avoidance**: 92.1%
 - **Overall Accuracy**: 90.8%
 - **Test Cases**: 86 manually annotated samples
+
+> **Note**: These metrics are achieved using the hybrid approach with a trained ML classifier. Pattern-based detection (fallback mode) has lower accuracy but requires no training data.
 
 ### Technical Specifications
 - **NLP Model**: `en_core_web_trf` (RoBERTa-based, 560MB)
