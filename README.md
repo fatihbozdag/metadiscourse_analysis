@@ -323,13 +323,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use this library in your research, please cite:
 
 ```bibtex
-@software{metalinguistics2025,
-  title={Metalinguistics: Advanced Metadiscourse Analysis Library},
-  author={Bozdag, Fatih},
-  year={2025},
-  url={https://github.com/fatihbozdag/metadiscourse_analysis},
-  note={Python library for metadiscourse analysis in academic texts}
+@article{Bozdag2025Construal,
+  author  = {Bozda{\u{g}}, F. {\"U}.},
+  year    = {2025},
+  title   = {Construal and {L1} transfer in Turkish {EFL} learners’ use of English progressive aspect},
+  journal = {Dil Dergisi},
+  volume  = {176},
+  number  = {2},
+  pages   = {1--30}
 }
+
 ```
 
 ## Contact & Support
