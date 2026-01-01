@@ -324,14 +324,15 @@ If you use this library in your research, please cite:
 
 ```
 @article{Bozdag2025Construal,
-  author  = {Bozda{\u{g}}, F. {\"U}.},
+  author  = {Bozdağ, F. Ü.},
   year    = {2025},
-  title   = {Construal and {L1} transfer in Turkish {EFL} learners’ use of English progressive aspect},
+  title   = {Construal and {L1} transfer in Turkish {EFL} learners' use of English progressive aspect},
   journal = {Dil Dergisi},
   volume  = {176},
   number  = {2},
   pages   = {1--30}
 }
+
 
 ```
 
